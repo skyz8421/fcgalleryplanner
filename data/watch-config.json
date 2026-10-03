@@ -1,0 +1,6 @@
+{
+ "launched":"2026-10-03",
+ "adDecisionDay":3,
+ "official":{"gallery-help":"https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/","launch-notes":"https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-launch-update"},
+ "valueDefaults":{"recentDays":14,"retain7dImpressions":250,"retain7dClicks":5,"lowWindows":7,"dormantReviewDays":7}
+}

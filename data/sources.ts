@@ -1,0 +1,1 @@
+export const sources=[{id:'ea-gallery',url:'https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/'},{id:'ea-launch',url:'https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-launch-update'},{id:'futgg-tags',url:'https://www.fut.gg/fut-gallery/tags/'}];

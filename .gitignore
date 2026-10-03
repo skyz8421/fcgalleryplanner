@@ -7,3 +7,12 @@ out/
 _review/shots/
 _review/lighthouse/
 *.tsbuildinfo
+
+_raw/
+_review/
+
+__pycache__/
+*.pyc
+.review-stamp.json
+.deploy-source-hash
+data/watch-state.json

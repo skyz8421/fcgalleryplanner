@@ -1,0 +1,1 @@
+{"name":"fcgalleryplanner","account_id":"e38e60d617a99f10b1166aa89d5f161b","compatibility_date":"2026-10-03","assets":{"directory":"./out","not_found_handling":"404-page"},"routes":[{"pattern":"fcgallery.wiki","custom_domain":true}]}

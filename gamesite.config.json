@@ -1,0 +1,101 @@
+{
+  "gsc": {
+    "property": "sc-domain:fcgallery.wiki",
+    "origin": "https://fcgallery.wiki",
+    "stopWords": [
+      "fc27",
+      "fut",
+      "gallery"
+    ]
+  },
+  "boilerplate": {
+    "pageTypes": {
+      "guides": [
+        "gallery-guide",
+        "gallery-levels",
+        "first-owner-bonus"
+      ],
+      "tools": [
+        "index",
+        "gallery-score-calculator"
+      ],
+      "trust": [
+        "about",
+        "contact",
+        "sources"
+      ],
+      "legal": [
+        "privacy",
+        "terms"
+      ]
+    },
+    "standalone": [
+      "404",
+      "_not-found"
+    ]
+  },
+  "templateResidue": {
+    "sources": {
+      "pokemondb": {
+        "path": "../../template/game/clones/03-database-planners/pokemondb",
+        "forbid": [
+          "pokemondb",
+          "Pok\u00e9mon",
+          "pokedex",
+          "bulbasaur",
+          "pokemon\\.net"
+        ]
+      },
+      "satisfactory-calculator": {
+        "path": "../../template/game/clones/02-interactive-maps/satisfactory-calculator",
+        "forbid": [
+          "satisfactory",
+          "Coffee Stain",
+          "AnthorNet"
+        ]
+      }
+    },
+    "templateChoice": "../futgg/template-choice.md",
+    "notChosen": [
+      "opgg-palworld",
+      "osrs-wiki",
+      "tiny-eden",
+      "gamewith-pokemon-sv",
+      "rideapetguide",
+      "minecraftsift",
+      "acecombat8guide",
+      "dragonkind",
+      "nookipedia"
+    ]
+  },
+  "ads": {
+    "mode": "adsterra",
+    "units": [
+      "320x50",
+      "728x90",
+      "300x250"
+    ],
+    "keyFiles": [
+      "data/ads.ts"
+    ]
+  },
+  "linkGraph": {
+    "origin": "https://fcgallery.wiki",
+    "homeLinkOnce": true
+  },
+  "og": {
+    "siteName": "FCGallery",
+    "origin": "https://fcgallery.wiki"
+  },
+  "ga4": {
+    "property": "557095173"
+  },
+  "clarity": {
+    "project": "yrwxc8cm9a"
+  },
+  "cleanTree": {
+    "machineWritten": [
+      "data/watch-state.json"
+    ]
+  }
+}

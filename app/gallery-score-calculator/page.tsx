@@ -1,0 +1,8 @@
+import Link from '@/components/SiteLink';
+import PageShell from '../../components/PageShell';
+import ScoreCalculator from '../../components/ScoreCalculator';
+import {pageMetadata} from '../../lib/site';
+const title='FC 27 Gallery score calculator';
+const description='Check a Set’s base score and tag bonuses. Compare the calculated total with your game to find mismatched inputs.';
+export const metadata=pageMetadata(title,description,'/gallery-score-calculator/');
+export default function Page(){return <PageShell title={title} description={description} path="/gallery-score-calculator/"><img className="content-diagram" src="/score-flow.svg" width="900" height="180" alt="Base item scores plus the ten largest rounded matching tag bonuses equals the Set score"/><ScoreCalculator/><section className="prose"><h2>Start with the matching item subtotal</h2><p>A tag applies to the scores of the player items matching that tag. For example, a First Owner bonus uses the subtotal of First Owner items, rather than every card in the Set. The <Link href="/first-owner-bonus/">First Owner worked examples</Link> show how item count changes the percentage.</p><h2>Turn a checked score into an upgrade option</h2><p>Once the Set score matches your inputs, put its current and proposed totals in the <Link href="/">route planner</Link>. Keep the same card entry wherever a card contributes to more than one Set. The planner compares incremental improvements instead of charging for a completed grade again.</p><p>For background on eligibility and item history, read the <Link href="/gallery-guide/">Gallery guide</Link>. The <a href="https://www.fut.gg/fut-gallery/tags/">public bonus-tag table</a> lists the available tiers.</p></section></PageShell>}
