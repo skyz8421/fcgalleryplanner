@@ -1,1 +1,33 @@
-[]
+{
+  "https://fcgallery.wiki/": {
+    "status": "quota_exceeded",
+    "attemptedAt": "2026-10-03T11:42:06Z",
+    "inspection": "URL is unknown to Google",
+    "requested": false,
+    "evidence": "../futgg/_raw/gsc-individual-requests.log"
+  },
+  "https://fcgallery.wiki/gallery-score-calculator/": {
+    "status": "not_requested_quota_stop",
+    "inspection": "URL is unknown to Google",
+    "requested": false,
+    "inspectedAt": "2026-10-03T11:41:53Z"
+  },
+  "https://fcgallery.wiki/gallery-levels/": {
+    "status": "not_requested_quota_stop",
+    "inspection": "URL is unknown to Google",
+    "requested": false,
+    "inspectedAt": "2026-10-03T11:41:53Z"
+  },
+  "https://fcgallery.wiki/first-owner-bonus/": {
+    "status": "not_requested_quota_stop",
+    "inspection": "URL is unknown to Google",
+    "requested": false,
+    "inspectedAt": "2026-10-03T11:41:53Z"
+  },
+  "https://fcgallery.wiki/gallery-guide/": {
+    "status": "not_requested_quota_stop",
+    "inspection": "URL is unknown to Google",
+    "requested": false,
+    "inspectedAt": "2026-10-03T11:41:53Z"
+  }
+}

@@ -1,0 +1,97 @@
+{
+ "note": "Written by page-freeze --record at the end of each deploy. Do not edit by hand.",
+ "recordedAt": "2026-10-03T11:58:47.826Z",
+ "log": [],
+ "pages": {
+  "about": {
+   "title": "About FCGallery | FCGallery",
+   "h1": "About FCGallery",
+   "canonical": "https://fcgallery.wiki/about/",
+   "robots": "index, follow",
+   "description": "An independent FC 27 Gallery planning tool for comparing the upgrade options and card prices you enter.",
+   "body": "4f5643fdcb7dbee8",
+   "lastmod": null
+  },
+  "contact": {
+   "title": "Contact & report a problem | FCGallery",
+   "h1": "Report a problem",
+   "canonical": "https://fcgallery.wiki/contact/",
+   "robots": "index, follow",
+   "description": "Report an FCGallery calculation problem with a reproducible example and the expected result.",
+   "body": "0214e97e2486c803",
+   "lastmod": null
+  },
+  "first-owner-bonus": {
+   "title": "FC 27 Gallery First Owner bonus | FCGallery",
+   "h1": "Calculate the First Owner bonus",
+   "canonical": "https://fcgallery.wiki/first-owner-bonus/",
+   "robots": "index, follow",
+   "description": "Calculate FC 27 Gallery First Owner bonuses from the matching item subtotal, with tier examples and checks for unexpected scores.",
+   "body": "d3990470891cc2e0",
+   "lastmod": null
+  },
+  "gallery-guide": {
+   "title": "FC 27 Gallery guide | FCGallery",
+   "h1": "How FC 27 Gallery works",
+   "canonical": "https://fcgallery.wiki/gallery-guide/",
+   "robots": "index, follow",
+   "description": "Understand FC 27 Gallery sets, keep your players, and plan useful upgrades without confusing points, grades and tokens.",
+   "body": "91294aa47a15de90",
+   "lastmod": null
+  },
+  "gallery-levels": {
+   "title": "FC 27 Gallery levels and rewards | FCGallery",
+   "h1": "Gallery levels, grades and rewards",
+   "canonical": "https://fcgallery.wiki/gallery-levels/",
+   "robots": "index, follow",
+   "description": "Separate FC 27 Gallery levels, set grades and tokens, view milestone rewards, and calculate the gap to your own next-level target.",
+   "body": "e6ee851a505055c8",
+   "lastmod": null
+  },
+  "gallery-score-calculator": {
+   "title": "FC 27 Gallery score calculator | FCGallery",
+   "h1": "FC 27 Gallery score calculator",
+   "canonical": "https://fcgallery.wiki/gallery-score-calculator/",
+   "robots": "index, follow",
+   "description": "Check a Set’s base score and tag bonuses. Compare the calculated total with your game to find mismatched inputs.",
+   "body": "a72b46209ac948b3",
+   "lastmod": null
+  },
+  "index": {
+   "title": "FC 27 Gallery Calculator & Route Planner",
+   "h1": "FC 27 Gallery route planner",
+   "canonical": "https://fcgallery.wiki/",
+   "robots": "index, follow",
+   "description": "Plan FC 27 Gallery upgrades with your current progress. Compare coin cost, trading capital and buy / sell actions using shared cards.",
+   "body": "ef6bb1acbd051305",
+   "lastmod": null
+  },
+  "privacy": {
+   "title": "Privacy | FCGallery",
+   "h1": "Privacy",
+   "canonical": "https://fcgallery.wiki/privacy/",
+   "robots": "index, follow",
+   "description": "How FCGallery handles locally saved plans, share links and optional analytics.",
+   "body": "798e8fd8c5739e9e",
+   "lastmod": null
+  },
+  "sources": {
+   "title": "Sources and calculation assumptions | FCGallery",
+   "h1": "Sources and calculation assumptions",
+   "canonical": "https://fcgallery.wiki/sources/",
+   "robots": "index, follow",
+   "description": "Read the references and calculation assumptions behind FCGallery's manually entered route planner and Gallery score checker.",
+   "body": "775cbe33957e395d",
+   "lastmod": null
+  },
+  "terms": {
+   "title": "Terms of use | FCGallery",
+   "h1": "Terms of use",
+   "canonical": "https://fcgallery.wiki/terms/",
+   "robots": "index, follow",
+   "description": "FCGallery provides estimates based on your entered values. Confirm targets, prices and eligibility before trading.",
+   "body": "47ad38a1974e9004",
+   "lastmod": null
+  }
+ }
+}
