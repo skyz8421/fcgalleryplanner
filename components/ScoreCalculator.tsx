@@ -129,10 +129,10 @@ export default function ScoreCalculator() {
           <figure className="score-figure">
             <svg viewBox="0 0 320 28" role="img" aria-labelledby={`${prefix}-chart-title`}>
               <title id={`${prefix}-chart-title`}>{number(result.base)} base points plus {number(result.bonus)} bonus points</title>
-              <rect x="0" y="3" width="320" height="22" rx="3" fill="#e9e8df" />
+              <rect x="0" y="3" width="320" height="22" rx="3" fill="var(--surface-2)" />
               {result.total > 0 && <>
-                <rect x="0" y="3" width={320 * result.base / result.total} height="22" fill="#166534" />
-                <rect x={320 * result.base / result.total} y="3" width={320 * result.bonus / result.total} height="22" fill="#b89135" />
+                <rect x="0" y="3" width={320 * result.base / result.total} height="22" fill="var(--accent)" />
+                <rect x={320 * result.base / result.total} y="3" width={320 * result.bonus / result.total} height="22" fill="var(--coin)" />
               </>}
             </svg>
             <figcaption className="subtle">Base items + counted tag bonuses</figcaption>

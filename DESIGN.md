@@ -1,35 +1,71 @@
 ---
 name: FCGallery
-description: A Gallery collection planning workspace
+description: A clear player-data workspace for Gallery planning
 colors:
-  primary: "#255d48"
-  background: "#f5f7f6"
+  primary: "#2559de"
+  background: "#f4f6fb"
   surface: "#ffffff"
-  text: "#1f2327"
-  muted: "#59655f"
-  coin: "#80601b"
-  line: "#d7dfda"
-  surface-subtle: "#edf2ef"
-  accent-background: "#e4eee8"
-  danger: "#a92b28"
-  focus: "#b4760c"
+  text: "#172238"
+  muted: "#58677f"
+  coin: "#6642a6"
+  line: "#dce3ef"
+  control-line: "#8492ad"
+  surface-subtle: "#edf1fa"
+  accent-background: "#eaf0ff"
+  danger: "#bd293d"
+  focus: "#2559de"
 typography:
   display:
-    fontFamily: "Archivo Black, sans-serif"
-    fontSize: "clamp(30px,3.8vw,48px)"
-    fontWeight: 400
-    lineHeight: 1.1
-    letterSpacing: "-.035em"
+    fontFamily: "Manrope, Arial, sans-serif"
+    fontSize: "clamp(32px,3.8vw,48px)"
+    fontWeight: 650
+    lineHeight: 1.13
+    letterSpacing: "-.045em"
+  home:
+    fontSize: "clamp(36px,4.2vw,56px)"
   body:
-    fontFamily: "Commissioner, sans-serif"
+    fontFamily: "Manrope, Arial, sans-serif"
     fontSize: "16px"
     fontWeight: 400
-    lineHeight: 1.6
+    lineHeight: 1.65
+  section:
+    fontSize: "22px"
+  subheading:
+    fontSize: "18px"
+  nav:
+    fontSize: "15px"
+  button:
+    fontSize: "14px"
+  label:
+    fontSize: "13px"
+  caption:
+    fontSize: "12px"
+  ad-label:
+    fontSize: "11px"
+  ad-label-mobile:
+    fontSize: "9px"
+  lead:
+    fontSize: "17px"
+  footer-brand:
+    fontSize: "20px"
+  mobile-section:
+    fontSize: "21px"
+  mobile-brand:
+    fontSize: "23px"
+  brand:
+    fontSize: "24px"
+  mobile-heading:
+    fontSize: "31px"
+  mobile-home:
+    fontSize: "36px"
 rounded:
-  panel: "6px"
-  control: "4px"
-  button: "5px"
-  inset: "3px"
+  panel: "12px"
+  button: "8px"
+  input: "7px"
+  menu: "6px"
+  inset: "5px"
+  nav: "4px"
+  small: "3px"
 spacing:
   small: "8px"
   field: "16px"
@@ -38,39 +74,22 @@ components:
   button-primary:
     backgroundColor: "{colors.primary}"
     textColor: "{colors.surface}"
-    typography: "{typography.body}"
-    rounded: "5px"
+    typography: "{typography.button}"
+    rounded: "8px"
     padding: "10px 17px"
 ---
 # FCGallery interface
 
-FC 27 players compare Gallery upgrade choices and check Set score arithmetic. Frequent input and comparison matter more than a promotional landing page.
+Revised in response to the user's rejection of the green/gold palette and heavy display lettering. The site is a player-data workspace: quiet silver-blue surfaces, ink text, clear blue actions and regular-weight prose. Typography is self-hosted Manrope variable Latin, semibold headings and regular body. Numeric fields/results use tabular figures. The 24KB local font and OFL license live in public/fonts. No isolated colored phrase in the main headline.
 
-## Overview
+## Themes and readability
 
-The approved product direction is a light collection planning workspace. The concept seed was `9c7a039a`, assigned direction 4: collection auction catalogue. Considered subject references were fixture tables, matchday programmes, collection albums, collection auction catalogues, scorebooks, transfer ledgers and badge catalogues. The chosen direction contributes compact records, precise numbers and a restrained green/gold hierarchy while preserving familiar form controls and navigation.
+Light tokens are listed above. Dark canvas #101728, surface #172239, text #edf2ff, secondary #b1bed4, action #89aeff, dividers #34425d, and coin metric #c5a5ff. Primary button foreground is explicitly white in light and #101728 in dark. Field boundaries use independent #8492ad / #65779b tokens with3:1 contrast, while dividers stay quiet. Blue focus outline remains3px; controls retain44px minimum touch areas. Panels use quiet1px borders and12px corners, without accent strips or decorative shadows. The diagrams keep a light blue backplate in both themes for readability.
 
-Reference layouts supply structure only: the table workspace and the planner input/output grouping. No source code, game images, logos or template prose was copied. EA Gallery art supplied visual context: bright collection displays and metal against dark exhibition space. The light tokens are designed derivatives, rather than sampled exact colours.
+## Layout and interaction
 
-## Colors
+Retain the two-column input/results workspace and single mobile column. Inner-page links stay under Tools and Gallery; the far-right theme control remembers the user's choice. Escape/outside click and selecting a page close menus. Guide examples, tables and reciprocal body links retain their distinct layouts.
 
-- Heading: self-hosted Archivo Black, 31–50px, compact line height. Body: self-hosted Commissioner, 16px, field labels 12–13px. All financial values use tabular numbers. Font licenses live beside local font files.
-- Light: background #f5f7f6, surface #ffffff, text #1f2327, muted #59655f, action #255d48, coin #80601b, line #d7dfda.
-- Dark: background #141b18, surface #1b2620, text #eaf0eb, muted #b6c4ba, action #91d5af, coin #e3c473, line #3c5043.
-- Focus: a visible 3px outline. Controls have a 44px minimum touch area. Panels use 1px borders, modest 6px corners and no decorative glow.
+Local save, Undo, drafts, JSON import/export and fragment shares retain their existing behavior. Prices are player-entered estimates, not a live feed. Titles, H1 text, canonical URLs, analytics consent and ad activation rules are unchanged. Only presentation is revised; diagrams preserve all arithmetic and source claims.
 
-## Layout
-
-Desktop navigation keeps Planner visible, groups inner pages under Tools and Gallery dropdowns, and places the light/dark button at the far right. Mobile puts the menu button immediately before the theme control. Dropdowns respond to click, Escape and outside click; page selection closes the menu. Theme follows the OS until chosen and persists locally.
-
-The homepage begins with the tool. Target and input sections sit beside the route output on desktop; mobile uses a single column. Guide pages use content-specific examples and local scrolling tables. Every content page has two semantic inbound links and a unique task.
-
-## Components
-
-An empty workspace gives the next input step. Example plans are explicitly illustrative. Market values are entered by the player; there is no live price claim. Cost, cash needed and transaction count remain separate. Invalid inputs cannot produce a recommended route. Local save, JSON exchange and share fragments are implemented, with share disclosure beside the controls.
-
-Analytics is default-deny. Its page location strips the fragment and its events omit the entered plan. Independent source notes stay on /sources/. No decorative EA player artwork or EA marks appear in the tool.
-
-## Do's and Don'ts
-
-Use the entered card variant exactly once across Sets. Keep prices and targets editable. Do not add generic promotional heroes, fake live-market numbers, emoji navigation icons, decorative side borders or source-process labels to player pages.
+Main interface text uses Manrope. External standalone SVG diagrams use Arial, JSON textarea uses monospace, and isolated ad labels use system-ui; these are intentional formatting exceptions, not Manrope claims.
