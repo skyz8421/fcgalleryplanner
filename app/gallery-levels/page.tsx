@@ -1,5 +1,6 @@
 import Link from "@/components/SiteLink";
 import PageShell from "@/components/PageShell";
+import LevelGapCalculator from "@/components/LevelGapCalculator";
 import { pageMetadata } from "@/lib/site";
 
 const description = "Separate FC 27 Gallery levels, set grades and tokens, view milestone rewards, and calculate the gap to your own next-level target.";
@@ -50,6 +51,14 @@ export default function GalleryLevelsPage() {
         <div className="notice">The 3,000,000 figure is a community reference for Level 10. Replace it with the target displayed in your game; do not derive other level targets by dividing or multiplying it.</div>
         <p>The <Link href="/">Gallery route planner</Link> accepts your own target. That makes it useful for any level without assuming that level thresholds follow a straight line.</p>
 
+        <section id="level-15">
+          <h2>Planning for Gallery Level 15</h2>
+          <p>Level 15 has a Holographic Base ICON Pick milestone. Your overall Gallery points determine level progress; a large token balance does not substitute for those points.</p>
+          <ol className="compact-list"><li>Copy your current Gallery points and the Level 15 target displayed in your game.</li><li>Look for sets you can improve with cards already collected. Count the increase over each set&apos;s current score.</li><li>Compare those gains with market upgrades you can buy within your trading balance. If a required card is unavailable, exclude it rather than planning around a purchase you cannot make.</li></ol>
+          <p>Level 10&apos;s community point reference is not a formula for Level 15. Recheck your displayed target and total after grading sets.</p>
+          <LevelGapCalculator />
+        </section>
+
         <h2>Work out the gap before choosing sets</h2>
         <div className="example">
           <h3>Example: 300,000 more points</h3>
@@ -59,7 +68,7 @@ export default function GalleryLevelsPage() {
         <p>Count only the positive improvement for a set that is already part of your starting total. Enter one proposed final result for each alternative upgrade; buying several alternatives for the same set should not count as several new sets.</p>
 
         <h2>When tokens are the real target</h2>
-        <p>The planner compares cumulative tokens earned, rather than the spendable balance left after purchases. If you have spent tokens, add that amount to both your current balance and your desired balance before entering the current and target totals.</p>
+        <p>The planner compares cumulative tokens earned, rather than the spendable balance left after purchases. If you have spent tokens, add that amount to both your current balance and your desired balance before entering the current and target totals. The route planner&apos;s balance helper does this conversion for you without changing your cards or upgrade options.</p>
         <div className="example">
           <h3>Example: saving for a 400-token reward</h3>
           <p>You have 300 tokens left and have already spent 200. Enter 500 as current tokens earned and 600 as the target: 300 + 200 = 500, and 400 + 200 = 600. You need 100 more tokens.</p>

@@ -16,3 +16,5 @@ __pycache__/
 .review-stamp.json
 .deploy-source-hash
 data/watch-state.json
+
+_daily/routine/

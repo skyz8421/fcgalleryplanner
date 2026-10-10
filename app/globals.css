@@ -29,3 +29,5 @@
   body:has(.ad-mobile) .consent-banner { bottom: calc(70px + env(safe-area-inset-bottom)); }
   body:has(.ad-mobile) .cookie-settings { bottom: calc(74px + env(safe-area-inset-bottom)); }
 }
+
+.token-balance-helper{margin:16px 0 22px;padding:15px;border:1px solid var(--control-line);border-radius:6px;background:var(--surface-2)}.token-balance-helper summary{font-weight:650;color:var(--accent);cursor:pointer}.token-balance-helper[open] summary{margin-bottom:14px}.token-balance-helper .feedback{margin:12px 0 0;min-height:0}.level-gap-calculator{margin:24px 0;padding:22px;border:1px solid var(--control-line);border-radius:8px;background:var(--surface-2)}.level-gap-result{font-size:18px;font-weight:650;margin:10px 0 16px;overflow-wrap:anywhere}.level-gap-calculator progress{width:100%;height:18px;accent-color:var(--accent);margin-bottom:16px}.level-gap-calculator p:last-child{margin-bottom:0}.level-gap-calculator .grid-two .field{min-width:0}@media(max-width:620px){.level-gap-calculator{padding:18px 14px}.level-gap-calculator .grid-two,.token-balance-helper .grid-two{grid-template-columns:1fr}}

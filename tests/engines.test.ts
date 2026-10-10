@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { calculateScore, decodePlan, encodePlan, planRoutes, PLAN_LIMITS, type MarketCard, type PlannerInput, type Upgrade } from '../lib/engines';
+import { calculateScore, decodePlan, encodePlan, planRoutes, tokenTargetFromBalance, PLAN_LIMITS, type MarketCard, type PlannerInput, type Upgrade } from '../lib/engines';
 import { samplePlan } from '../lib/sample-plan';
 
 const card = (id: string, buy = 1000, sell = buy, owned = false): MarketCard => ({ id, name: id, buy, sell, owned });
@@ -165,4 +165,34 @@ test('codec rejects malformed, huge, wrong-version, prototype, unexpected and in
   for (const attack of attacks) assert.throws(() => decodePlan(attack));
   assert.throws(() => encodePlan(input({ cards: [{ ...card('a'), name: '\ud800' }] })));
   assert.equal(({} as Record<string, unknown>).polluted, undefined);
+});
+
+
+test('unavailable purchases exclude every dependent upgrade without blocking independent routes', () => {
+  const p = input({ cards: [{ ...card('missing', 100), available: false }, card('buyable', 200)], upgrades: [upgrade('blocked', ['missing'], 500), upgrade('backup', ['buyable'], 100)] });
+  const result = planRoutes(p);
+  assert.equal(result.errors.length, 0);
+  assert.deepEqual(result.feasible?.upgradeIds, ['backup']);
+  assert.equal(result.feasible?.transactions, 2);
+  const restored = decodePlan(encodePlan(p));
+  assert.equal(restored.cards[0].available, false);
+  assert.deepEqual(planRoutes(restored), result);
+  p.cards[0].owned = true;
+  assert.deepEqual(planRoutes(p).feasible?.upgradeIds, ['blocked']);
+});
+
+test('older plans without availability are still tradable and invalid availability is rejected', () => {
+  const old = input({ cards: [card('a')], upgrades: [upgrade('u', ['a'])] });
+  assert.deepEqual(decodePlan(encodePlan(old)), old);
+  assert.ok(planRoutes(old).feasible);
+  const wrong = { ...old, cards: [{ ...card('a'), available: 'false' }] } as unknown as PlannerInput;
+  assert.ok(planRoutes(wrong).errors.some(error => error.includes('available')));
+  assert.throws(() => encodePlan(wrong));
+});
+
+test('token balance conversion preserves spending basis, already-reached targets and bounds', () => {
+  assert.deepEqual(tokenTargetFromBalance(300, 200, 400), { currentTokens: 500, targetTokens: 600, remaining: 100 });
+  assert.deepEqual(tokenTargetFromBalance(400, 200, 300), { currentTokens: 600, targetTokens: 500, remaining: 0 });
+  for (const n of [-1, NaN, Infinity, 1.5]) assert.throws(() => tokenTargetFromBalance(n, 0, 1));
+  assert.throws(() => tokenTargetFromBalance(1_000_000_000_000, 1, 0));
 });

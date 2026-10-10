@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "site": "fcgalleryplanner",
+  "name": "FCGallery",
+  "archiveDir": "/Users/yangzhixiong.521/Documents/projects/game-sites/futgg",
+  "origin": "https://fcgallery.wiki",
+  "gscProperty": "sc-domain:fcgallery.wiki",
+  "platform": "website",
+  "officialSources": [
+    {
+      "id": "official-1",
+      "url": "https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/",
+      "kind": "html"
+    },
+    {
+      "id": "official-2",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-launch-update",
+      "kind": "html"
+    }
+  ],
+  "pendingFiles": [
+    "_daily/state.json",
+    "data/watch-state.json",
+    "data/daily-signal.json",
+    "data/daily-signals.json",
+    "_daily/gsc-index-pending.json",
+    "data/index-requests.json"
+  ],
+  "python": "/Users/yangzhixiong.521/.pyenv/versions/3.12.0/bin/python3",
+  "packageManager": "pnpm",
+  "policyVersion": "2026-10-10",
+  "researchEveryRun": true
+}

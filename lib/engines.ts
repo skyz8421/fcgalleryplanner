@@ -1,5 +1,5 @@
 /** Calculations compare only the card prices and upgrade choices entered by the user. */
-export type MarketCard = { id: string; name: string; buy: number; sell: number; owned: boolean };
+export type MarketCard = { id: string; name: string; buy: number; sell: number; owned: boolean; available?: boolean };
 export type Upgrade = {
   id: string; setId: string; name: string; currentScore: number; plannedScore: number;
   currentTokens: number; plannedTokens: number; cardIds: string[];
@@ -31,8 +31,8 @@ const validText = (v: unknown, limit: number) => typeof v === 'string' && v.trim
   && !Array.from(v).some(ch => { const code = ch.codePointAt(0)!; return code < 32 || code === 127 || (code >= 0xd800 && code <= 0xdfff); });
 const finite = (v: unknown, limit = MAX_VALUE, integer = false): v is number =>
   typeof v === 'number' && Number.isFinite(v) && v >= 0 && v <= limit && (!integer || Number.isSafeInteger(v));
-function keys(v: Record<string, unknown>, expected: string[], label: string, errors: string[]) {
-  if (Object.keys(v).some(k => !expected.includes(k))) errors.push(`${label} contains an unsupported field.`);
+function keys(v: Record<string, unknown>, expected: string[], label: string, errors: string[], optional: string[] = []) {
+  if (Object.keys(v).some(k => !expected.includes(k) && !optional.includes(k))) errors.push(`${label} contains an unsupported field.`);
   for (const k of expected) if (!Object.hasOwn(v, k)) errors.push(`${label}.${k} is required.`);
 }
 
@@ -54,11 +54,12 @@ function validate(input: unknown): string[] {
   input.cards.forEach((c, i) => {
     const label = `Card ${i + 1}`;
     if (!record(c)) { errors.push(`${label} must be an object.`); return; }
-    keys(c, ['id', 'name', 'buy', 'sell', 'owned'], label, errors);
+    keys(c, ['id', 'name', 'buy', 'sell', 'owned'], label, errors, ['available']);
     if (!validText(c.id, 100)) errors.push(`${label} needs a valid variant ID.`);
     if (!validText(c.name, 160)) errors.push(`${label} needs a name within 160 characters.`);
     for (const field of ['buy', 'sell']) if (!finite(c[field], MAX_MONEY)) errors.push(`${label}.${field} must be a finite non-negative amount within limits.`);
     if (typeof c.owned !== 'boolean') errors.push(`${label}.owned must be true or false.`);
+    if (Object.hasOwn(c, 'available') && typeof c.available !== 'boolean') errors.push(`${label}.available must be true or false.`);
     if (typeof c.id === 'string') {
       const prior = cards.get(c.id);
       if (prior) errors.push(prior.buy !== c.buy || prior.sell !== c.sell || prior.owned !== c.owned
@@ -151,7 +152,10 @@ export function planRoutes(input: PlannerInput): PlannerResult {
     let valid = true;
     for (let i = 0; i < input.upgrades.length; i++) if (mask & (1 << i)) {
       const u = input.upgrades[i];
-      if (sets.has(u.setId)) { valid = false; break; }
+      if (sets.has(u.setId) || u.cardIds.some(id => {
+        const card = cardMap.get(id)!;
+        return !card.owned && card.available === false;
+      })) { valid = false; break; }
       sets.add(u.setId); upgrades.push(u);
     }
     if (!valid) continue;
@@ -164,6 +168,16 @@ export function planRoutes(input: PlannerInput): PlannerResult {
   }
   const alternative = feasible && alternativeBest && feasible.upgradeIds.join('|') !== alternativeBest.upgradeIds.join('|') ? alternativeBest : null;
   return { errors: [], deficit, feasible, alternative, bestAvailable, targetReached: false };
+}
+
+/** Convert a spendable balance into the cumulative totals used by the planner. */
+export function tokenTargetFromBalance(balance: number, spent: number, desiredBalance: number) {
+  if (![balance, spent, desiredBalance].every(n => finite(n, MAX_VALUE, true)))
+    throw new Error('Enter non-negative whole token amounts within limits.');
+  const currentTokens = balance + spent, targetTokens = desiredBalance + spent;
+  if (![currentTokens, targetTokens].every(n => finite(n, MAX_VALUE, true)))
+    throw new Error('Combined token totals are too large.');
+  return { currentTokens, targetTokens, remaining: Math.max(0, desiredBalance - balance) };
 }
 export function calculateScore(base: number, tags: ScoreTag[]): ScoreResult {
   if (!finite(base, MAX_VALUE, true)) throw new Error('Base score must be a non-negative whole number within limits.');

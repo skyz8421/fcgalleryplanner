@@ -45,6 +45,9 @@ export default function GalleryGuidePage() {
         <h2>What should you aim for next?</h2>
         <p>Choose your target before comparing routes: another overall level, another set grade, or enough tokens for a specific reward. The planner&apos;s token totals are cumulative tokens earned. If you have spent tokens, add the amount spent to both your current balance and your desired balance. For each set, enter current and planned cumulative grade rewards; the planner calculates the extra tokens.</p>
         <p>The <Link href="/gallery-levels/">level and reward guide</Link> gives a token-entry example and lists the published milestone rewards.</p>
+        <h2>When a card cannot be bought</h2>
+        <p>Check the required card variant before relying on an upgrade. In the <Link href="/">route planner</Link>, mark an uncollected card <strong>Unavailable to buy</strong> to exclude every upgrade that needs it. Other routes remain available. A card already collected can still count, so it is not blocked by current market availability.</p>
+        <p>For a higher milestone, use the <Link href="/gallery-levels/#level-15">Level 15 planning steps and points-gap calculator</Link>. When tokens are the target, use the planner&apos;s balance helper to add past spending to your current and desired balances.</p>
         <p>For collection eligibility and grade-claim rules, read <a href="https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/">EA&apos;s Gallery help</a>.</p>
       </div>
     </PageShell>

@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev --port 3068",
     "build": "eslint . && tsx --test tests/engines.test.ts && tsc --noEmit && node scripts/check-script-id-shadow.mjs && node scripts/verify-analytics.mjs && next build && node scripts/check-og.mjs && node scripts/check-csp-analytics.mjs && node scripts/check-boilerplate.mjs && node scripts/check-ai-slop.mjs && node scripts/check-nav-icons.mjs && node scripts/check-design-distinct.mjs && node scripts/check-media-first.mjs && node scripts/check-no-dates.mjs && node scripts/check-no-sources.mjs && node scripts/check-jsx-seams.mjs && node scripts/check-quotes.mjs && node scripts/check-ads.mjs && node scripts/check-link-graph.mjs && node scripts/check-template-residue.mjs && node scripts/check-page-freeze.mjs",
-    "cf:deploy": "node scripts/check-review-stamp.mjs && pnpm build && wrangler deploy && node scripts/check-design-distinct.mjs --record && node scripts/check-page-freeze.mjs --record && node scripts/check-clean-tree.mjs --record"
+    "cf:deploy": "node scripts/check-review-stamp.mjs && pnpm build && wrangler deploy && node scripts/check-design-distinct.mjs --record && node scripts/check-page-freeze.mjs --record && node scripts/check-clean-tree.mjs --record",
+    "cf:deploy:daily": "node ../../template/gamesite-kit/bin/daily-release.mjs --site ."
   },
   "dependencies": {
     "next": "16.3.8",
