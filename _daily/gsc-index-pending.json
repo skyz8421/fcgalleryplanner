@@ -1,0 +1,18 @@
+{
+  "property": "sc-domain:fcgallery.wiki",
+  "pendingUrls": [
+    "https://fcgallery.wiki/gallery-guide/",
+    "https://fcgallery.wiki/",
+    "https://fcgallery.wiki/gallery-levels/",
+    "https://fcgallery.wiki/first-owner-bonus/",
+    "https://fcgallery.wiki/sources/",
+    "https://fcgallery.wiki/about/",
+    "https://fcgallery.wiki/contact/",
+    "https://fcgallery.wiki/terms/"
+  ],
+  "nextAttemptNotBefore": "2026-10-11T16:00:00Z",
+  "lastOutcome": "First URL failed twice (something went wrong); stopped, not a confirmed quota error",
+  "lastQuotaObservedAt": "2026-10-10T02:31:31Z",
+  "sourceEvidence": "_daily/routine/2026-10-11/gsc-request.log",
+  "lastAttemptAt": "2026-10-10T23:20:51Z"
+}

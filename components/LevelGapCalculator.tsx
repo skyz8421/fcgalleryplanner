@@ -11,7 +11,7 @@ export default function LevelGapCalculator() {
   const values = [Number(current), Number(target)];
   const valid = current !== '' && target !== '' && values.every(value => Number.isSafeInteger(value) && value >= 0 && value <= 1_000_000_000_000) && values[1] > 0;
   const gap = valid ? Math.max(0, values[1] - values[0]) : null;
-  return <section className="level-gap-calculator" aria-label="Gallery level points gap calculator">
+  return <section className="level-gap-calculator" aria-label="Gallery level points gap calculator" data-clarity-mask="true">
     <h3>Calculate your next milestone gap</h3>
     <label className="field"><span id={milestoneLabel}>Milestone to plan for</span><select aria-labelledby={milestoneLabel} value={level} onChange={event => { setLevel(event.target.value); setTarget(''); }}>{['5', '10', '15', '20', '25'].map(value => <option key={value} value={value}>Level {value}</option>)}</select></label>
     <div className="grid-two">
