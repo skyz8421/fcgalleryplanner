@@ -20,6 +20,6 @@ export default function LevelGapCalculator() {
     </div>
     <div role="status" aria-live="polite" className="level-gap-result">{gap === null ? 'Enter both point totals from your game.' : gap === 0 ? `Your entered total reaches the Level ${level} target.` : `${gap.toLocaleString('en-US')} more Gallery points to your entered Level ${level} target.`}</div>
     {valid && <progress aria-label={`Progress toward your entered Level ${level} target`} max={values[1]} value={Math.min(values[0], values[1])} />}
-    <p>Use these two totals in the <Link href="/">route planner</Link>, then compare the upgrades you can actually complete. Your saved cards and upgrade options stay available when you return.</p>
+    <p>Use these two totals in the <Link href="/">route planner</Link>, then compare the upgrades you can actually complete. Add your own spending and buy / sell action limits when choosing a route. Your saved cards and upgrade options stay available when you return.</p>
   </section>;
 }

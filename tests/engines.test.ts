@@ -196,3 +196,45 @@ test('token balance conversion preserves spending basis, already-reached targets
   for (const n of [-1, NaN, Infinity, 1.5]) assert.throws(() => tokenTargetFromBalance(n, 0, 1));
   assert.throws(() => tokenTargetFromBalance(1_000_000_000_000, 1, 0));
 });
+
+
+test('effort caps change the cheapest route rather than only hiding its metrics', () => {
+  const original = planRoutes(samplePlan).feasible!;
+  assert.equal(original.transactions, 6);
+  const capped = planRoutes({ ...samplePlan, maxTransactions: 4 }).feasible!;
+  assert.deepEqual(capped.upgradeIds, ['illustrative-rarity-upgrade']);
+  assert.equal(capped.transactions, 4);
+  assert.equal(capped.loss, 700);
+  assert.deepEqual(planRoutes({ ...samplePlan, maxSets: 1 }).feasible?.upgradeIds, capped.upgradeIds);
+});
+
+test('net-loss cap constrains target and best-progress fallback, including token mode', () => {
+  const result = planRoutes({ ...samplePlan, maxLoss: 649 });
+  assert.equal(result.feasible, null);
+  assert.deepEqual(result.bestAvailable?.upgradeIds, ['illustrative-league-upgrade']);
+  assert.equal(result.bestAvailable?.loss, 600);
+  const tokens = planRoutes({ ...samplePlan, mode: 'tokens', maxLoss: 599 });
+  assert.equal(tokens.feasible, null);
+  assert.ok(tokens.bestAvailable && tokens.bestAvailable.loss <= 599);
+});
+
+test('zero caps permit collected-card reuse and already-met goals, but zero sets prevents upgrades', () => {
+  assert.equal(planRoutes({ ...samplePlan, maxTransactions: 0 }).feasible, null);
+  const owned = { ...samplePlan, cards: samplePlan.cards.map(c => ({ ...c, owned: true, available: false })), maxTransactions: 0, maxLoss: 0 };
+  assert.ok(planRoutes(owned).feasible);
+  assert.equal(planRoutes(owned).feasible?.transactions, 0);
+  assert.equal(planRoutes({ ...owned, maxSets: 0 }).feasible, null);
+  assert.equal(planRoutes({ ...owned, targetScore: owned.currentScore, maxSets: 0 }).targetReached, true);
+});
+
+test('new caps survive sharing while old plans stay uncapped and malformed caps reject', () => {
+  const capped = { ...samplePlan, maxLoss: 800, maxTransactions: 4, maxSets: 1 };
+  assert.deepEqual(decodePlan(encodePlan(capped)), capped);
+  assert.deepEqual(planRoutes(decodePlan(encodePlan(capped))), planRoutes(capped));
+  assert.equal(planRoutes(decodePlan(encodePlan(samplePlan))).feasible?.loss, 650);
+  for (const patch of [{maxLoss:-1},{maxLoss:NaN},{maxTransactions:1.5},{maxTransactions:257},{maxSets:17},{maxSets:null}]) {
+    const wrong = { ...samplePlan, ...patch } as PlannerInput;
+    assert.ok(planRoutes(wrong).errors.length);
+    assert.throws(() => encodePlan(wrong));
+  }
+});

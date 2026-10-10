@@ -8,6 +8,7 @@ export type PlannerInput = {
   currentScore: number; targetScore: number; currentTokens: number; targetTokens: number;
   coinBalance: number; taxRate: number; mode: 'points' | 'tokens'; objective: 'coins' | 'trades';
   cards: MarketCard[]; upgrades: Upgrade[];
+  maxLoss?: number; maxTransactions?: number; maxSets?: number;
 };
 export type Route = {
   upgradeIds: string[]; cardIds: string[]; pointsGain: number; tokensGain: number;
@@ -40,11 +41,14 @@ function keys(v: Record<string, unknown>, expected: string[], label: string, err
 function validate(input: unknown): string[] {
   const errors: string[] = [];
   if (!record(input)) return ['Plan must be an object.'];
-  keys(input, ['currentScore', 'targetScore', 'currentTokens', 'targetTokens', 'coinBalance', 'taxRate', 'mode', 'objective', 'cards', 'upgrades'], 'Plan', errors);
+  keys(input, ['currentScore', 'targetScore', 'currentTokens', 'targetTokens', 'coinBalance', 'taxRate', 'mode', 'objective', 'cards', 'upgrades'], 'Plan', errors, ['maxLoss', 'maxTransactions', 'maxSets']);
   for (const field of ['currentScore', 'targetScore', 'currentTokens', 'targetTokens'])
     if (!finite(input[field], MAX_VALUE, true)) errors.push(`${field} must be a non-negative whole number within limits.`);
   if (!finite(input.coinBalance, MAX_MONEY)) errors.push('coinBalance must be a finite non-negative amount within limits.');
   if (!finite(input.taxRate, 1)) errors.push('taxRate must be between 0 and 1.');
+  if (Object.hasOwn(input, 'maxLoss') && !finite(input.maxLoss, MAX_MONEY)) errors.push('Maximum net coin loss must be a non-negative amount within limits.');
+  if (Object.hasOwn(input, 'maxTransactions') && !finite(input.maxTransactions, PLAN_LIMITS.cards * 2, true)) errors.push('Maximum buy / sell actions must be a whole number from 0 to 256.');
+  if (Object.hasOwn(input, 'maxSets') && !finite(input.maxSets, PLAN_LIMITS.upgrades, true)) errors.push('Maximum Set upgrades must be a whole number from 0 to 16.');
   if (input.mode !== 'points' && input.mode !== 'tokens') errors.push('Choose points or tokens mode.');
   if (input.objective !== 'coins' && input.objective !== 'trades') errors.push('Choose coins or trades objective.');
   if (!Array.isArray(input.cards) || input.cards.length > PLAN_LIMITS.cards) errors.push(`Use at most ${PLAN_LIMITS.cards} cards.`);
@@ -161,6 +165,9 @@ export function planRoutes(input: PlannerInput): PlannerResult {
     if (!valid) continue;
     const candidate = route(input, upgrades, cardMap);
     if (candidate.upfront > input.coinBalance + 0.000001) continue;
+    if (input.maxLoss !== undefined && candidate.loss > input.maxLoss + 0.000001) continue;
+    if (input.maxTransactions !== undefined && candidate.transactions > input.maxTransactions) continue;
+    if (input.maxSets !== undefined && candidate.sets > input.maxSets) continue;
     if (!bestAvailable || gain(candidate) > gain(bestAvailable) || (gain(candidate) === gain(bestAvailable) && compare(candidate, bestAvailable, input.objective, input.mode) < 0)) bestAvailable = candidate;
     if (gain(candidate) < deficit) continue;
     if (!feasible || compare(candidate, feasible, input.objective, input.mode) < 0) feasible = candidate;
