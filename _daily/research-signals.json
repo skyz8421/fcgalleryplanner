@@ -1,0 +1,36 @@
+{
+  "signals": [
+    {
+      "id": "gallery-unavailable-card-routes",
+      "need": "Exclude upgrade routes requiring a currently unavailable uncollected card",
+      "sourceUrl": "https://www.youtube.com/watch?v=7WUqZeTKkAI&lc=UgxiMnMRqOKi3nprtcd4AaABAg",
+      "routes": [
+        "/",
+        "/gallery-guide/"
+      ]
+    },
+    {
+      "id": "gallery-spent-token-balance-conversion",
+      "need": "Convert balance left, past spending and desired balance to cumulative token goals without losing existing upgrades",
+      "sourceUrl": "https://www.reddit.com/r/fut/comments/1wyjx4j/fut_gallery_opinion_on_multiple_hall_of_fut/",
+      "routes": [
+        "/",
+        "/gallery-guide/",
+        "/gallery-levels/"
+      ]
+    },
+    {
+      "id": "gallery-level15-planning-gap",
+      "need": "Answer Level15 search intent with a points-gap tool, milestone context and planning steps using in-game target inputs",
+      "sourceFile": "_daily/routine/2026-10-10/context.json",
+      "query": "gallery level 15",
+      "impressions7d": 17,
+      "clicks7d": 0,
+      "routes": [
+        "/gallery-levels/",
+        "/",
+        "/gallery-guide/"
+      ]
+    }
+  ]
+}

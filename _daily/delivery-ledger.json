@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "5f787bde2337bec29d9ca622521e198f61d6fda5fad3369aa38897e2b8a63453",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/"
+      ],
+      "handledAt": "2026-10-10T02:42:07.099Z",
+      "deploymentId": "100b6f56-4d4f-4337-8129-6634874554b1",
+      "evidencePath": "_daily/routine/2026-10-10/live-qa.json"
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "b842ee9c00c16de39119f1363797e7d6bba524005cf6a45c54ba12b8fe8c8bd1",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/gallery-levels/"
+      ],
+      "handledAt": "2026-10-10T02:42:07.100Z",
+      "deploymentId": "100b6f56-4d4f-4337-8129-6634874554b1",
+      "evidencePath": "_daily/routine/2026-10-10/live-qa.json"
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "e1a1c5394c42d4508e1f80aaed62dd6418d26d8074509db86b6270e3925443c7",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/gallery-levels/",
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/"
+      ],
+      "handledAt": "2026-10-10T02:42:07.100Z",
+      "deploymentId": "100b6f56-4d4f-4337-8129-6634874554b1",
+      "evidencePath": "_daily/routine/2026-10-10/live-qa.json"
+    }
+  ]
+}
