@@ -31,6 +31,33 @@
         "/",
         "/gallery-guide/"
       ]
+    },
+    {
+      "id": "gallery-hard-cost-effort-limits",
+      "need": "Apply optional net-loss, trading-action and upgraded-set caps to target routes and fallback progress",
+      "sourceUrl": "https://www.easysbc.io/fut-gallery",
+      "sourceFile": "_daily/routine/2026-10-11/real-browser-check.json",
+      "routes": [
+        "/",
+        "/gallery-guide/",
+        "/gallery-levels/"
+      ]
+    },
+    {
+      "id": "gallery-clarity-scoped-export-mask",
+      "need": "Resolve missing site-scoped Clarity export access and mask personal level-gap inputs on eligible guide pages",
+      "sourceFile": "_daily/routine/2026-10-11/clarity-credential-outcome.json",
+      "routes": [
+        "/gallery-levels/"
+      ]
+    },
+    {
+      "id": "gallery-levels-dead-click-target",
+      "need": "Identify the exact target behind three reported dead clicks before choosing a UI fix; aggregate metrics and heatmap overview do not identify a broken control",
+      "sourceFile": "_daily/routine/2026-10-11/clarity-url-review.json",
+      "routes": [
+        "/gallery-levels/"
+      ]
     }
   ]
 }
