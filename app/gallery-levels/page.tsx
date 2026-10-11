@@ -41,7 +41,7 @@ export default function GalleryLevelsPage() {
           <table className="data-table">
             <caption>Gallery milestone player rewards</caption>
             <thead><tr><th scope="col">Gallery level</th><th scope="col">Milestone reward</th></tr></thead>
-            <tbody>{milestones.map(([level, reward]) => <tr key={level}><th scope="row">Level {level}</th><td>{reward}</td></tr>)}</tbody>
+            <tbody>{milestones.map(([level, reward]) => <tr key={level}><th scope="row">Level {level}</th><td>{level === "15" ? <Link href="#level-15" aria-label="Holographic Base ICON Pick: plan for Level 15">{reward}</Link> : reward}</td></tr>)}</tbody>
           </table>
         </div>
         <p>The reward overview&apos;s approximate season schedule describes expected progression. It is not a point target to paste into a calculator or a guarantee of when you can obtain an item.</p>
@@ -51,7 +51,7 @@ export default function GalleryLevelsPage() {
         <div className="notice">The 3,000,000 figure is a community reference for Level 10. Replace it with the target displayed in your game; do not derive other level targets by dividing or multiplying it.</div>
         <p>The <Link href="/">Gallery route planner</Link> accepts your own target. That makes it useful for any level without assuming that level thresholds follow a straight line.</p>
 
-        <section id="level-15">
+        <section id="level-15" tabIndex={-1} aria-label="Level 15 planning steps">
           <h2>Planning for Gallery Level 15</h2>
           <p>Level 15 has a Holographic Base ICON Pick milestone. Your overall Gallery points determine level progress; a large token balance does not substitute for those points.</p>
           <ol className="compact-list"><li>Copy your current Gallery points and the Level 15 target displayed in your game.</li><li>Look for sets you can improve with cards already collected. Count the increase over each set&apos;s current score.</li><li>Compare those gains with market upgrades you can buy within your trading balance. If a required card is unavailable, exclude it rather than planning around a purchase you cannot make.</li></ol>
