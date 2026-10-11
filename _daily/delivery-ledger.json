@@ -67,6 +67,21 @@
       "additionalEvidence": [
         "_daily/routine/2026-10-11/privacy-live-check.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "84a701a714b679c61055acfa67544b716d910fc3b0b808aae7d1b0fa30b6b81c",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/gallery-levels/"
+      ],
+      "handledAt": "2026-10-11T23:07:25.277Z",
+      "deploymentId": "0279a34f-3071-4af5-afb0-59c0ea6bfd24",
+      "evidencePath": "_daily/routine/2026-10-12/live-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-12/clarity-dead-loaded.json",
+        "_daily/routine/2026-10-12/frozen-fields.json"
+      ]
     }
   ]
 }

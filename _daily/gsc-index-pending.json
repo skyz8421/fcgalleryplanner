@@ -10,9 +10,11 @@
     "https://fcgallery.wiki/contact/",
     "https://fcgallery.wiki/terms/"
   ],
-  "nextAttemptNotBefore": "2026-10-11T16:00:00Z",
-  "lastOutcome": "First URL failed twice (something went wrong); stopped, not a confirmed quota error",
+  "nextAttemptNotBefore": "2026-10-12T16:00:00Z",
+  "lastOutcome": "First URL failed twice (something went wrong); accepted0, stopped; not confirmed quota",
   "lastQuotaObservedAt": "2026-10-10T02:31:31Z",
-  "sourceEvidence": "_daily/routine/2026-10-11/gsc-request.log",
-  "lastAttemptAt": "2026-10-10T23:20:51Z"
+  "sourceEvidence": "_daily/routine/2026-10-12/gsc-request.log",
+  "lastAttemptAt": "2026-10-11T23:05:53Z",
+  "latestChangedUrl": "https://fcgallery.wiki/gallery-levels/",
+  "latestDeployment": "0279a34f-3071-4af5-afb0-59c0ea6bfd24"
 }

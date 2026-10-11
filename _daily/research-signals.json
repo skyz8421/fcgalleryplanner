@@ -58,6 +58,14 @@
       "routes": [
         "/gallery-levels/"
       ]
+    },
+    {
+      "id": "gallery-levels-observed-dead-click-affordances",
+      "need": "Make the observed Level15 ICON reward label and empty gap instruction actionable while preserving keyboard focus and private drafts",
+      "sourceFile": "_daily/routine/2026-10-12/clarity-dead-loaded.json",
+      "routes": [
+        "/gallery-levels/"
+      ]
     }
   ]
 }
