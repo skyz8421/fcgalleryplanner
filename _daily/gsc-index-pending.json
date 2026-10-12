@@ -1,20 +1,20 @@
 {
   "property": "sc-domain:fcgallery.wiki",
   "pendingUrls": [
-    "https://fcgallery.wiki/gallery-guide/",
     "https://fcgallery.wiki/",
-    "https://fcgallery.wiki/gallery-levels/",
-    "https://fcgallery.wiki/first-owner-bonus/",
-    "https://fcgallery.wiki/sources/",
-    "https://fcgallery.wiki/about/",
     "https://fcgallery.wiki/contact/",
     "https://fcgallery.wiki/terms/"
   ],
-  "nextAttemptNotBefore": "2026-10-12T16:00:00Z",
-  "lastOutcome": "First URL failed twice (something went wrong); accepted0, stopped; not confirmed quota",
-  "lastQuotaObservedAt": "2026-10-10T02:31:31Z",
-  "sourceEvidence": "_daily/routine/2026-10-12/gsc-request.log",
-  "lastAttemptAt": "2026-10-11T23:05:53Z",
+  "nextAttemptNotBefore": "2026-10-13T16:00:00Z",
+  "lastOutcome": "Owned logged-in Chrome accepted5; stop=quota_exceeded; requests are not indexing",
+  "lastQuotaObservedAt": "2026-10-12T23:24:05.699102+00:00",
+  "sourceEvidence": "_daily/routine/2026-10-13/gsc-fallback-queue.json",
+  "lastAttemptAt": "2026-10-12T23:24:05.699102+00:00",
   "latestChangedUrl": "https://fcgallery.wiki/gallery-levels/",
-  "latestDeployment": "0279a34f-3071-4af5-afb0-59c0ea6bfd24"
+  "latestDeployment": "05c2d094-1438-4888-aacb-3a774733baa9",
+  "latestChangedUrls": [
+    "https://fcgallery.wiki/",
+    "https://fcgallery.wiki/gallery-levels/",
+    "https://fcgallery.wiki/gallery-guide/"
+  ]
 }

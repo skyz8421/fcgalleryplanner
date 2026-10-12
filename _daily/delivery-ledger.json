@@ -82,6 +82,23 @@
         "_daily/routine/2026-10-12/clarity-dead-loaded.json",
         "_daily/routine/2026-10-12/frozen-fields.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "c8f0d9a445e4d95c87f808e9de63fa6221cb70e7ab09764c03d3c574956d0b3c",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/gallery-levels/",
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/"
+      ],
+      "handledAt": "2026-10-12T23:12:11.373Z",
+      "deploymentId": "05c2d094-1438-4888-aacb-3a774733baa9",
+      "evidencePath": "_daily/routine/2026-10-13/live-reserve-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-13/research-market-review.md",
+        "_daily/routine/2026-10-13/live-qa.json"
+      ]
     }
   ]
 }
