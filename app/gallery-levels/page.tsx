@@ -1,6 +1,7 @@
 import Link from "@/components/SiteLink";
 import PageShell from "@/components/PageShell";
 import LevelGapCalculator from "@/components/LevelGapCalculator";
+import TokenReserveCalculator from "@/components/TokenReserveCalculator";
 import { pageMetadata } from "@/lib/site";
 
 const description = "Separate FC 27 Gallery levels, set grades and tokens, view milestone rewards, and calculate the gap to your own next-level target.";
@@ -75,6 +76,13 @@ export default function GalleryLevelsPage() {
           <p>If one set has already earned 20 tokens and its proposed grade would bring its cumulative rewards to 50, enter current 20 and planned 50. Its new contribution is 30 tokens.</p>
         </div>
         <p>A route with the biggest score gain is not automatically the route with the most useful token gain. Compare the new tokens from your proposed grades with the gap to your cumulative target.</p>
+        <section id="token-reserve" tabIndex={-1} aria-label="Spend or save Gallery tokens">
+          <h2>Spend Gallery tokens now or keep a reserve?</h2>
+          <p>Start with a reward you would use and the balance you want to keep. A future offer is uncertain: EA says the Gallery Token Store can change during the season. An offer countdown alone does not establish when a replacement arrives or what happens to unspent tokens.</p>
+          <TokenReserveCalculator />
+          <p>For example, with 750 tokens, a 500-token purchase leaves 250. If you want 750 left for another reward, you need 500 more before buying. Keeping all 750 already meets that reserve. These are example amounts, not a current store listing.</p>
+          <p>For earning and claiming set rewards, follow the <Link href="/gallery-guide/">Gallery collection steps</Link>. Check <a href="https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/">EA&apos;s Gallery help</a> and the offer in your game before choosing a purchase.</p>
+        </section>
         <p>Before using a planned set result, check its <Link href="/gallery-score-calculator/">Item Scores and tag bonuses</Link>. If First Owner is doing most of the work, the <Link href="/first-owner-bonus/">First Owner bonus guide</Link> explains why market purchases do not replace First Owner items.</p>
         <p>See <a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-launch-update">EA&apos;s FC 27 launch update</a> for the Gallery milestone overview.</p>
       </div>

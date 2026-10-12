@@ -54,6 +54,7 @@ export default function GalleryGuidePage() {
         <h2>When a card cannot be bought</h2>
         <p>Check the required card variant before relying on an upgrade. In the <Link href="/">route planner</Link>, mark an uncollected card <strong>Unavailable to buy</strong> to exclude every upgrade that needs it. Other routes remain available. A card already collected can still count, so it is not blocked by current market availability.</p>
         <p>For a higher milestone, use the <Link href="/gallery-levels/#level-15">Level 15 planning steps and points-gap calculator</Link>. When tokens are the target, use the planner&apos;s balance helper to add past spending to your current and desired balances.</p>
+        <p>Before spending tokens, compare the purchase with the balance you want to keep using the <Link href="/gallery-levels/#token-reserve">token reserve calculator</Link>.</p>
         <p>For collection eligibility and grade-claim rules, read <a href="https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/">EA&apos;s Gallery help</a>.</p>
       </div>
     </PageShell>

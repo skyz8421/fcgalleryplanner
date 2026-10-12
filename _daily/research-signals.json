@@ -66,6 +66,17 @@
       "routes": [
         "/gallery-levels/"
       ]
+    },
+    {
+      "id": "gallery-token-purchase-reserve",
+      "need": "Compare a current Gallery token purchase against a user chosen reserve, showing spendable balance, affordability and a desired pre-purchase balance for the existing route planner",
+      "sourceUrl": "https://www.reddit.com/r/fut/comments/1x1m060/anyone_saving_their_gallery_tokens/",
+      "sourceFile": "_daily/routine/2026-10-13/community-browser.json",
+      "routes": [
+        "/gallery-levels/",
+        "/",
+        "/gallery-guide/"
+      ]
     }
   ]
 }
