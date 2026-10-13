@@ -1,15 +1,14 @@
 {
   "property": "sc-domain:fcgallery.wiki",
   "pendingUrls": [
-    "https://fcgallery.wiki/",
     "https://fcgallery.wiki/contact/",
     "https://fcgallery.wiki/terms/"
   ],
-  "nextAttemptNotBefore": "2026-10-13T16:00:00Z",
-  "lastOutcome": "Owned logged-in Chrome accepted5; stop=quota_exceeded; requests are not indexing",
+  "nextAttemptNotBefore": "2026-10-14T16:00:00Z",
+  "lastOutcome": "Accepted homepage; contact and terms returned explicit platform_error; no quota observed today; preserve both pending",
   "lastQuotaObservedAt": "2026-10-12T23:24:05.699102+00:00",
-  "sourceEvidence": "_daily/routine/2026-10-13/gsc-fallback-queue.json",
-  "lastAttemptAt": "2026-10-12T23:24:05.699102+00:00",
+  "sourceEvidence": "_daily/routine/2026-10-14/gsc-fallback-queue.json",
+  "lastAttemptAt": "2026-10-13T23:07:20.751849+00:00",
   "latestChangedUrl": "https://fcgallery.wiki/gallery-levels/",
   "latestDeployment": "05c2d094-1438-4888-aacb-3a774733baa9",
   "latestChangedUrls": [
