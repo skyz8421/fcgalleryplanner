@@ -42,15 +42,18 @@ export default function GalleryLevelsPage() {
           <table className="data-table">
             <caption>Gallery milestone player rewards</caption>
             <thead><tr><th scope="col">Gallery level</th><th scope="col">Milestone reward</th></tr></thead>
-            <tbody>{milestones.map(([level, reward]) => <tr key={level}><th scope="row">Level {level}</th><td>{level === "15" ? <Link href="#level-15" aria-label="Holographic Base ICON Pick: plan for Level 15">{reward}</Link> : reward}</td></tr>)}</tbody>
+            <tbody>{milestones.map(([level, reward]) => <tr key={level}><th scope="row">Level {level}</th><td>{level === "15" || level === "10" ? <Link href={`#level-${level}`} aria-label={`${reward}: plan for Level ${level}`}>{reward}</Link> : reward}</td></tr>)}</tbody>
           </table>
         </div>
         <p>The reward overview&apos;s approximate season schedule describes expected progression. It is not a point target to paste into a calculator or a guarantee of when you can obtain an item.</p>
 
+        <section id="level-10" tabIndex={-1} aria-label="Level 10 planning steps">
         <h2>How many points do you need for Level 10?</h2>
         <p>Use the target shown beside your Gallery progress in the game. The published milestone reward table does not supply a score threshold for Level 10 or a complete threshold list for every level.</p>
         <div className="notice">The 3,000,000 figure is a community reference for Level 10. Replace it with the target displayed in your game; do not derive other level targets by dividing or multiplying it.</div>
         <p>The <Link href="/">Gallery route planner</Link> accepts your own target. That makes it useful for any level without assuming that level thresholds follow a straight line.</p>
+        <p>For the Holographic Base Hero Pick milestone, <Link href="#points-gap">open the points gap calculator</Link> and choose Level 10. Enter your current points and the target shown in your game to see what remains.</p>
+        </section>
 
         <section id="level-15" tabIndex={-1} aria-label="Level 15 planning steps">
           <h2>Planning for Gallery Level 15</h2>

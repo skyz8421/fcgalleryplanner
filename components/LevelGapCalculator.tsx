@@ -19,7 +19,7 @@ export default function LevelGapCalculator() {
     field?.focus();
     field?.scrollIntoView({ block: 'center', behavior: 'instant' });
   };
-  return <section className="level-gap-calculator" aria-label="Gallery level points gap calculator" data-clarity-mask="true">
+  return <section id="points-gap" tabIndex={-1} className="level-gap-calculator" aria-label="Gallery level points gap calculator" data-clarity-mask="true">
     <h3>Calculate your next milestone gap</h3>
     <label className="field"><span id={milestoneLabel}>Milestone to plan for</span><select aria-labelledby={milestoneLabel} value={level} onChange={event => { setLevel(event.target.value); setTarget(''); }}>{['5', '10', '15', '20', '25'].map(value => <option key={value} value={value}>Level {value}</option>)}</select></label>
     <div className="grid-two">
