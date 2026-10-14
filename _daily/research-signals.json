@@ -77,6 +77,14 @@
         "/",
         "/gallery-guide/"
       ]
+    },
+    {
+      "id": "gallery-level10-hero-reward-navigation",
+      "need": "Make the observed Holographic Base Hero Pick dead-click target lead to Level10 guidance and the private points-gap calculator with keyboard focus",
+      "sourceFile": "_daily/routine/2026-10-15/community-browser.json",
+      "routes": [
+        "/gallery-levels/"
+      ]
     }
   ]
 }

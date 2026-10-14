@@ -99,6 +99,21 @@
         "_daily/routine/2026-10-13/research-market-review.md",
         "_daily/routine/2026-10-13/live-qa.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "a312bfe5f164dc74e71c255695d9537d0ed7f6aa27d913f322967b42c7f19bd2",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/gallery-levels/"
+      ],
+      "handledAt": "2026-10-14T23:17:29.588Z",
+      "deploymentId": "c386e4ba-72b6-4049-8111-6a07ea9ad464",
+      "evidencePath": "_daily/routine/2026-10-15/live-hero-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-15/community-browser.json",
+        "_daily/routine/2026-10-15/research-market-review.md"
+      ]
     }
   ]
 }
