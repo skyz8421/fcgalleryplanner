@@ -85,6 +85,14 @@
       "routes": [
         "/gallery-levels/"
       ]
+    },
+    {
+      "id": "gallery-levels-diagram-full-size",
+      "need": "Make the observed dead-clicked Gallery progress diagram open its original SVG through a labelled keyboard-accessible link without losing planner inputs",
+      "sourceFile": "_daily/routine/2026-10-17/community-browser.json",
+      "routes": [
+        "/gallery-levels/"
+      ]
     }
   ]
 }

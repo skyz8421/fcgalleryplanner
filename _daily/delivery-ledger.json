@@ -114,6 +114,21 @@
         "_daily/routine/2026-10-15/community-browser.json",
         "_daily/routine/2026-10-15/research-market-review.md"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "7de635d12972197aacb146628a323e817638257a3b621079aaedb5717b64e6cd",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/gallery-levels/"
+      ],
+      "handledAt": "2026-10-16T23:18:26.744Z",
+      "deploymentId": "aafbcabc-06c3-475e-a190-f57e80960a11",
+      "evidencePath": "_daily/routine/2026-10-17/live-hero-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-17/community-browser.json",
+        "_daily/routine/2026-10-17/research-market-review.md"
+      ]
     }
   ]
 }
