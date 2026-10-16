@@ -20,7 +20,12 @@ export default function GalleryLevelsPage() {
     <PageShell title="Gallery levels, grades and rewards" description={description} path="/gallery-levels/">
       <div className="prose">
         <p>There are three numbers to keep apart: your overall Gallery progress, the grade of an individual set, and your Gallery token balance. Improving a set can help more than one of them, but they are not interchangeable.</p>
-        <img src="/levels-flow.svg" width={900} height={240} alt="Gallery sets produce score and grade progress; grade rewards can award tokens, and overall level progress has separate milestone rewards." />
+        <figure style={{ margin: "1.5rem 0" }}>
+          <a href="/levels-flow.svg" target="_blank" rel="noopener" aria-label="View the Gallery progress diagram at full size (opens in a new tab)">
+            <img src="/levels-flow.svg" width={900} height={240} alt="Gallery sets produce score and grade progress; grade rewards can award tokens, and overall level progress has separate milestone rewards." />
+          </a>
+          <figcaption><a href="/levels-flow.svg" target="_blank" rel="noopener">View diagram at full size (new tab)</a></figcaption>
+        </figure>
 
         <h2>Which target are you trying to reach?</h2>
         <div className="table-scroll" tabIndex={0} role="region" aria-label="Scrollable Gallery reference table">
