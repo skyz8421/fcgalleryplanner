@@ -34,7 +34,7 @@ export default function GalleryGuidePage() {
         <div className="example">
           <h3>A set you have already graded</h3>
           <p>Suppose your current overall score is 2,700,000. One set already contributes 100,000 to the progress you are using. Your proposed upgrade raises that set to 250,000. Its estimated new contribution is 150,000, not another 250,000.</p>
-          <p>If a second planned set contributes another 150,000, the two upgrades project a total of 3,000,000 from that starting point. This is a worked planning target; copy your actual next-level target from the game.</p>
+          <p>If a second planned set contributes another 150,000, the two upgrades project a total of 3,000,000 from that starting point. This is a worked planning target. Use the <Link href="/gallery-levels/#reported-points">reported points table</Link> for an editable reference; a scenario does not verify a level unlock.</p>
         </div>
         <p>Enter your starting totals and proposed upgrades in the <Link href="/">Gallery route planner</Link>. Reuse the same card ID when two upgrades need the exact same version. The planner then counts that purchase once when comparing your entered routes.</p>
 

@@ -38,7 +38,7 @@ export default function SourcesPage() {
 
         <h2>Level targets and example data</h2>
         <p>The official milestone reward table supplies rewards at levels 5, 10, 15, 20 and 25, but does not give a full list of point thresholds. The 3,000,000 Level 10 reference comes from a <a href="https://www.reddit.com/r/fut/comments/1wnnwio/gallery_level_10_hero_pick_rush/">community report</a>. It remains an editable reference, not an official threshold.</p>
-        <p>Use the target displayed in your game. The <Link href="/gallery-levels/">level and reward guide</Link> distinguishes overall targets from set grades and token balances.</p>
+        <p>FUT.GG also publishes <a href="https://www.fut.gg/news/how-many-points-for-each-gallery-level-in-ea-fc-27-levels-5-10-and-15-explained/">in-game reports for Levels 2–14</a>. These are editable third-party references, not EA-confirmed thresholds. Levels 15, 20 and 25 have no preset here. The <Link href="/gallery-levels/">level and reward guide</Link> distinguishes overall targets from set grades and token balances.</p>
         <p>Worked examples and any example plans are illustrative inputs. Their arithmetic can be reproduced, but their prices are not live quotes and their hypothetical item groups are not recommendations to buy a particular real player.</p>
       </div>
     </PageShell>
