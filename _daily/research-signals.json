@@ -93,6 +93,18 @@
       "routes": [
         "/gallery-levels/"
       ]
+    },
+    {
+      "id": "gallery-reported-level-references",
+      "need": "Provide attributed editable level point references and fix the assumption that every screen exposes a target; leave unconfirmed levels without a preset",
+      "sourceUrl": "https://www.fut.gg/news/how-many-points-for-each-gallery-level-in-ea-fc-27-levels-5-10-and-15-explained/",
+      "sourceFile": "_daily/routine/2026-10-19/source-audit.json",
+      "routes": [
+        "/gallery-levels/",
+        "/",
+        "/gallery-guide/",
+        "/sources/"
+      ]
     }
   ]
 }

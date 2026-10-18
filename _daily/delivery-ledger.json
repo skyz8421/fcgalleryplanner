@@ -129,6 +129,26 @@
         "_daily/routine/2026-10-17/community-browser.json",
         "_daily/routine/2026-10-17/research-market-review.md"
       ]
+    },
+    {
+      "signalFingerprint": "af2e43c768ceaa579bb96e6703323659b374c9519e43a1dc9b05b91b98b625f7",
+      "sourceFile": "_daily/research-signals.json",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/gallery-levels/",
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-10-18T23:19:27.919Z",
+      "deploymentId": "a5f5feb1-4183-405f-a409-642ff4377229",
+      "evidencePath": "_daily/routine/2026-10-19/live-hero-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-19/source-audit.json",
+        "_daily/routine/2026-10-19/research-market-review.md",
+        "_daily/routine/2026-10-19/release-receipt.json",
+        "_daily/routine/2026-10-19/live-related-qa.json"
+      ]
     }
   ]
 }

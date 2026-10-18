@@ -1,13 +1,16 @@
 {
   "property": "sc-domain:fcgallery.wiki",
   "pendingUrls": [],
-  "lastOutcome": "Accepted 1 updated URL request; not indexing. Remaining 0.",
+  "lastOutcome": "Accepted 4 updated URL requests; not indexing. Remaining 0.",
   "lastQuotaObservedAt": "2026-10-12T23:24:05.699102+00:00",
-  "sourceEvidence": "_daily/routine/2026-10-17/gsc-fallback-queue.json",
-  "lastAttemptAt": "2026-10-16T23:19:42.370814+00:00",
+  "sourceEvidence": "_daily/routine/2026-10-19/gsc-fallback-queue.json",
+  "lastAttemptAt": "2026-10-18T23:23:44.758473+00:00",
   "latestChangedUrl": "https://fcgallery.wiki/gallery-levels/",
-  "latestDeployment": "aafbcabc-06c3-475e-a190-f57e80960a11",
+  "latestDeployment": "a5f5feb1-4183-405f-a409-642ff4377229",
   "latestChangedUrls": [
-    "https://fcgallery.wiki/gallery-levels/"
+    "https://fcgallery.wiki/gallery-levels/",
+    "https://fcgallery.wiki/",
+    "https://fcgallery.wiki/gallery-guide/",
+    "https://fcgallery.wiki/sources/"
   ]
 }
