@@ -38,6 +38,14 @@ export default function GalleryGuidePage() {
         </div>
         <p>Enter your starting totals and proposed upgrades in the <Link href="/">Gallery route planner</Link>. Reuse the same card ID when two upgrades need the exact same version. The planner then counts that purchase once when comparing your entered routes.</p>
 
+        <h2 id="follow-your-route">Follow the route, then refresh your totals</h2>
+        <ol>
+          <li>Calculate a route in the <Link href="/#route-output">planner</Link> and open its sequential trading order. Add a shared card to all intended Sets before selling it.</li>
+          <li>Grade each planned Set in-game. Tick its entry under <strong>Grade your Sets</strong> to keep your place. The checkmark records your note, not an automatic account update.</li>
+          <li>Check your actual Gallery points, total tokens earned and available coins in-game. Enter those as your next starting totals and update each Set&apos;s current score and tokens before recalculating.</li>
+        </ol>
+        <p>The checklist stays in the same tab after a reload; calculate the unchanged plan to see it again. Editing, clearing or replacing the plan resets the checks. Each comparison route has its own checklist. Saved plan exports and share links contain your planning inputs, without the checkmarks.</p>
+
         <h2>Coins at risk and coins needed are different</h2>
         <p>A buy-and-resell route needs enough coins to buy its most demanding next item. Its eventual coin loss depends on resale prices and market tax. A low estimated loss does not make a route affordable when you cannot fund the first purchase.</p>
         <p>Enter purchase and expected resale prices yourself. Treat a resale as a successful sale at that price, not a guaranteed immediate return. If you keep several purchases at once, you need more working capital than a route that sells each item before buying the next.</p>
