@@ -105,6 +105,52 @@
         "/gallery-guide/",
         "/sources/"
       ]
+    },
+    {
+      "id": "gallery-local-route-checklist",
+      "need": "Carry a calculated route through in-game Set grading with local per-route checks; preserve on reload, reset on edits, exclude from sharing and never change estimated totals",
+      "sourceUrl": "https://braza.app/en/galeria/planejador",
+      "sourceFile": "_daily/routine/2026-10-20/checklist-competitor.json",
+      "routes": [
+        "/",
+        "/gallery-guide/"
+      ]
+    },
+    {
+      "id": "gallery-live-item-post-sale-upgrades-fact-check",
+      "need": "Verify primary game evidence for live-item upgrades after sale before answering; EVO rule is not evidence for live cards",
+      "sourceUrl": "https://www.reddit.com/r/EASportsFC/comments/1xa5dby/does_anyone_know_if_live_cards_get_upgraded_in/",
+      "sourceFile": "_daily/routine/2026-10-20/player-threads.json",
+      "routes": [
+        "/gallery-guide/"
+      ]
+    },
+    {
+      "id": "gallery-holographic-variant-visual-verification",
+      "need": "Obtain verified Web App or game visuals to explain holographic versus normal variants; existing exact-variant/Item Score guidance covers safe planning but visual identification remains unverified",
+      "sourceUrl": "https://www.reddit.com/r/EASportsFC/comments/1x9wkor/web_app_differentiating_between_holographic/",
+      "sourceFile": "_daily/routine/2026-10-20/player-threads.json",
+      "routes": [
+        "/gallery-guide/"
+      ]
+    },
+    {
+      "id": "gallery-unsaved-points-reward-fact-check",
+      "need": "Verify unsaved Gallery points/reward reports through EA or reproducible game evidence; do not recommend anecdotal extra spending as a verified fix",
+      "sourceUrl": "https://www.reddit.com/r/EASportsFC/comments/1x7wxwi/gallery_bug_reward_not_given/",
+      "sourceFile": "_daily/routine/2026-10-20/player-threads.json",
+      "routes": [
+        "/gallery-guide/"
+      ]
+    },
+    {
+      "id": "gallery-objective-reward-timing",
+      "need": "Distinguish non-retroactive Gallery objective rewards from unsaved Set scores using EA primary help; direct users to active-objective requirements before spending",
+      "sourceUrl": "https://help.ea.com/en/articles/ea-sports-fc/missing-rewards/",
+      "sourceFile": "_daily/routine/2026-10-20/objective-source-audit.json",
+      "routes": [
+        "/gallery-guide/"
+      ]
     }
   ]
 }

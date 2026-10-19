@@ -149,6 +149,40 @@
         "_daily/routine/2026-10-19/release-receipt.json",
         "_daily/routine/2026-10-19/live-related-qa.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "1aaabcb71277c59a5b9e6354ad34fcf2eda72686d4b88049874dfd92e5f8f448",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/"
+      ],
+      "handledAt": "2026-10-19T23:18:21.304Z",
+      "deploymentId": "1e10e10a-8e95-44eb-9372-8e00b1324fc0",
+      "evidencePath": "_daily/routine/2026-10-20/live-checklist-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-20/checklist-competitor.json",
+        "_daily/routine/2026-10-20/research-market-review.md",
+        "_daily/routine/2026-10-20/live-links-qa.json",
+        "_daily/routine/2026-10-20/release-receipt.json"
+      ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "f70581965368967814716cf6f25021a71d12849e1e2e3c4e17b92a701de366d1",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/gallery-guide/"
+      ],
+      "handledAt": "2026-10-19T23:21:56.786Z",
+      "deploymentId": "9ebc0b06-015b-46cb-9e56-de3014a56fe3",
+      "evidencePath": "_daily/routine/2026-10-20/objective-live-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-20/objective-source-audit.json",
+        "_daily/routine/2026-10-20/research-market-review.md",
+        "_daily/routine/2026-10-20/release-receipt.json"
+      ]
     }
   ]
 }
