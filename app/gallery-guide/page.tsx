@@ -46,6 +46,8 @@ export default function GalleryGuidePage() {
         </ol>
         <p>The checklist stays in the same tab after a reload; calculate the unchanged plan to see it again. Editing, clearing or replacing the plan resets the checks. Each comparison route has its own checklist. Saved plan exports and share links contain your planning inputs, without the checkmarks.</p>
 
+        <aside className="notice" aria-label="Gallery objective reward check"><strong>Missing a Gallery objective reward?</strong><p>Check when the objective became active. EA says Gallery objective progress counts only after that point; earlier progress does not qualify. This rule concerns objective rewards, not a diagnosis of a Set score that fails to save. Compare the objective&apos;s requirements with your in-game progress before buying more cards. See <a href="https://help.ea.com/en/articles/ea-sports-fc/missing-rewards/">EA&apos;s missing-rewards guidance</a>.</p></aside>
+
         <h2>Coins at risk and coins needed are different</h2>
         <p>A buy-and-resell route needs enough coins to buy its most demanding next item. Its eventual coin loss depends on resale prices and market tax. A low estimated loss does not make a route affordable when you cannot fund the first purchase.</p>
         <p>Enter purchase and expected resale prices yourself. Treat a resale as a successful sale at that price, not a guaranteed immediate return. If you keep several purchases at once, you need more working capital than a route that sells each item before buying the next.</p>
