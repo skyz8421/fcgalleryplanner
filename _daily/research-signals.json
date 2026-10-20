@@ -151,6 +151,17 @@
       "routes": [
         "/gallery-guide/"
       ]
+    },
+    {
+      "id": "gallery-official-holographic-visual-guide",
+      "need": "Explain standard, Regular and Pristine Holographic variants with credited official item image and a scoped Player Pick visual-bug note; link to score entry and exact-variant route planning",
+      "sourceUrl": "https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-fut-deep-dive",
+      "sourceFile": "_daily/routine/2026-10-21/material-audit.json",
+      "routes": [
+        "/",
+        "/gallery-guide/",
+        "/sources/"
+      ]
     }
   ]
 }

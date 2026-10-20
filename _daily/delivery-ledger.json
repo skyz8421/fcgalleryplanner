@@ -183,6 +183,24 @@
         "_daily/routine/2026-10-20/research-market-review.md",
         "_daily/routine/2026-10-20/release-receipt.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "2d1678b0606dec4f4d410b851f02373068194932e06788b9417db4137662651b",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-10-20T23:27:07.798Z",
+      "deploymentId": "b9aff7ad-7dea-4880-8713-51a2e806a156",
+      "evidencePath": "_daily/routine/2026-10-21/live-variant-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-21/material-audit.json",
+        "_daily/routine/2026-10-21/research-market-review.md",
+        "_daily/routine/2026-10-21/release-receipt.json"
+      ]
     }
   ]
 }
