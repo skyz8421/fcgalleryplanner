@@ -22,9 +22,27 @@ export default function GalleryGuidePage() {
         <p>A Gallery set does not consume the player items you put into it. The same eligible item can appear in more than one set, so one purchase can support several planned upgrades. Eligible items you have sold can still count in your collection history.</p>
         <div className="notice"><strong>Keep Gallery separate from SBCs.</strong> Completing a Gallery set does not submit its players into a Squad Building Challenge. Check which game screen you are using before confirming an action.</div>
 
-        <h2>Check the version, not just the player&apos;s name</h2>
+        <h2 id="card-versions">Check the version, not just the player&apos;s name</h2>
         <p>Different versions of a player are different Gallery items. Loan items do not count. An Evolution uses its original item version for Gallery; upgrading it does not create another Gallery version or increase its Gallery score through the Evolution upgrades.</p>
         <p>Item Score depends on more than overall rating. Rarity and holographic status can affect it too. When planning with special items, copy the Item Score shown in your game instead of substituting a score from a normal card with the same rating.</p>
+
+        <h3>Standard, Regular Holographic or Pristine Holographic?</h3>
+        <p>A Holographic version has the same in-match attributes as its standard counterpart, but contributes more Gallery Item Score. EA describes two Holographic finishes; each eligible item has only one of those Holographic versions.</p>
+        <div className="table-scroll" tabIndex={0} role="region" aria-label="Holographic item comparison"><table className="data-table"><caption>Compare the finish with the exact item version</caption><thead><tr><th scope="col">Version</th><th scope="col">EA&apos;s visual distinction</th><th scope="col">Planning check</th></tr></thead><tbody>
+          <tr><th scope="row">Standard counterpart</th><td>The original special-item presentation</td><td>Do not substitute its score for the Holographic version.</td></tr>
+          <tr><th scope="row">Regular Holographic</th><td>An animated foil effect</td><td>Confirm the variant and read its own Item Score.</td></tr>
+          <tr><th scope="row">Pristine Holographic</th><td>A foil effect plus a stylized player name</td><td>The stylized name is an additional visual cue.</td></tr>
+        </tbody></table></div>
+        <figure className="item-version-figure">
+          <a href="/ea-holographic.jpg" target="_blank" rel="noopener" aria-label="Open EA Holographic item example at full size in a new tab"><img src="/ea-holographic.jpg" width={1920} height={1080} loading="lazy" alt="EA example showing a 91-rated Team of the Week Jude Bellingham item with a stylized name and 18,750 Item Score in the upper-left details panel." /></a>
+          <figcaption>EA&apos;s example shows the stylized name and an Item Score of 18,750. It illustrates the interface, not a current market quote. <a href="/ea-holographic.jpg" target="_blank" rel="noopener">Open full-size image</a> · <a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-fut-deep-dive">Image and finish descriptions: EA Ultimate Team deep dive</a>.</figcaption>
+        </figure>
+        <ol>
+          <li>Check the player, campaign and exact variant in the item details. A matching player name or asking price is not enough.</li>
+          <li>Copy that item&apos;s displayed score into the <Link href="/gallery-score-calculator/">Set score checker</Link> when comparing bonuses.</li>
+          <li>Use a separate card entry for each version in the <Link href="/">route planner</Link>. Reuse a card ID across Sets only when they need that same version.</li>
+        </ol>
+        <p><strong>If a preview and the received item disagree:</strong> EA&apos;s <a href="https://www.ea.com/games/ea-sports-fc/news/fc27-title-update-v1-0-4">v1.0.4 update notes</a> report a fix for base items incorrectly showing Holographic visuals in some Player Picks. That specific preview issue does not establish the version of a Transfer Market listing. Check the actual item details before entering a planned purchase.</p>
 
         <h2>Tags can change which collection is strongest</h2>
         <p>Tags reward specific groups inside a set. For example, a First Owner bonus applies to the Item Score subtotal of qualifying First Owner items. It does not multiply every item in the set. A large bonus percentage on a small subtotal can be worth less than a smaller percentage on valuable items.</p>
