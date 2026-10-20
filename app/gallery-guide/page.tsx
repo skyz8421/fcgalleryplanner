@@ -28,7 +28,7 @@ export default function GalleryGuidePage() {
 
         <h3>Standard, Regular Holographic or Pristine Holographic?</h3>
         <p>A Holographic version has the same in-match attributes as its standard counterpart, but contributes more Gallery Item Score. EA describes two Holographic finishes; each eligible item has only one of those Holographic versions.</p>
-        <div className="table-scroll" tabIndex={0} role="region" aria-label="Holographic item comparison"><table className="data-table"><caption>Compare the finish with the exact item version</caption><thead><tr><th scope="col">Version</th><th scope="col">EA&apos;s visual distinction</th><th scope="col">Planning check</th></tr></thead><tbody>
+        <div className="table-scroll" tabIndex={0} role="region" aria-label="Holographic item comparison"><table className="data-table item-version-table"><caption>Compare the finish with the exact item version</caption><thead><tr><th scope="col">Version</th><th scope="col">EA&apos;s visual distinction</th><th scope="col">Planning check</th></tr></thead><tbody>
           <tr><th scope="row">Standard counterpart</th><td>The original special-item presentation</td><td>Do not substitute its score for the Holographic version.</td></tr>
           <tr><th scope="row">Regular Holographic</th><td>An animated foil effect</td><td>Confirm the variant and read its own Item Score.</td></tr>
           <tr><th scope="row">Pristine Holographic</th><td>A foil effect plus a stylized player name</td><td>The stylized name is an additional visual cue.</td></tr>
