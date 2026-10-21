@@ -15,9 +15,10 @@ export default function SourcesPage() {
         <h2>Published EA references</h2>
         <ul>
           <li><a href="https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/">EA Gallery help</a>: set eligibility, keeping items when filling sets, reusing items across sets, loan exclusions, original Evolution versions and claiming grade rewards.</li>
-          <li><a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-launch-update">FC 27 launch update</a>: the overall-rating Item Score table and Gallery level milestone rewards. Rarity and holographic status can also affect an item&apos;s score.</li>
+          <li><a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-launch-update">FC 27 launch update</a>: the overall-rating Item Score table, Gallery level milestone rewards and <Link href="/gallery-guide/#new-sets">using collection history in new Sets</Link>. Rarity and holographic status can also affect an item&apos;s score.</li>
           <li><a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-fut-deep-dive">FC 27 Ultimate Team deep dive</a>: Gallery sets, overall progression, token rewards and the Regular / Pristine Holographic finishes illustrated in our <Link href="/gallery-guide/#card-versions">card-version guide</Link>.</li>
           <li><a href="https://www.ea.com/games/ea-sports-fc/news/fc27-title-update-v1-0-4">FC 27 v1.0.4 update notes</a>: the fix for incorrect Holographic visuals on base items in some Player Picks.</li>
+          <li><a href="https://help.ea.com/en/articles/ea-sports-fc/ultimate-team-objectives/">EA Ultimate Team Objectives</a>: general Gallery Objective timing and the exception for a specified subset already completed.</li>
           <li><a href="https://help.ea.com/en/articles/ea-sports-fc/community-api/">EA Community API information</a>: account integration through approved community partners. FCGallery has no approved account integration.</li>
         </ul>
 
