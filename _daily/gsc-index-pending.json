@@ -3,10 +3,10 @@
   "pendingUrls": [],
   "lastOutcome": "Accepted 3 updated URL requests; not indexing. Remaining 0.",
   "lastQuotaObservedAt": "2026-10-12T23:24:05.699102+00:00",
-  "sourceEvidence": "_daily/routine/2026-10-21/gsc-fallback-queue.json",
-  "lastAttemptAt": "2026-10-20T23:30:37.809424+00:00",
+  "sourceEvidence": "_daily/routine/2026-10-22/gsc-fallback-queue.json",
+  "lastAttemptAt": "2026-10-21T23:22:46.083443+00:00",
   "latestChangedUrl": "https://fcgallery.wiki/",
-  "latestDeployment": "b9aff7ad-7dea-4880-8713-51a2e806a156",
+  "latestDeployment": "53daedda-5ada-4a5d-8eba-6ee741d63ac2",
   "latestChangedUrls": [
     "https://fcgallery.wiki/",
     "https://fcgallery.wiki/gallery-guide/",

@@ -162,6 +162,28 @@
         "/gallery-guide/",
         "/sources/"
       ]
+    },
+    {
+      "id": "gallery-new-set-collection-history",
+      "need": "Answer whether previously collected eligible items can fill later Gallery Sets, including sold and SBC items; show a three-state pre-purchase checklist and manual fill step with planner links",
+      "sourceUrl": "https://www.reddit.com/r/fut/comments/1xblxst/new_gallery_sets_coming_soon/",
+      "sourceFile": "_daily/routine/2026-10-22/source-audit.json",
+      "routes": [
+        "/",
+        "/gallery-guide/",
+        "/sources/"
+      ]
+    },
+    {
+      "id": "gallery-objective-specific-subset-exception",
+      "need": "Correct overbroad non-retroactive objective guidance by distinguishing general progress timing from the official exception for specifically required already completed subsets",
+      "sourceUrl": "https://help.ea.com/en/articles/ea-sports-fc/ultimate-team-objectives/",
+      "sourceFile": "_daily/routine/2026-10-22/source-audit.json",
+      "routes": [
+        "/",
+        "/gallery-guide/",
+        "/sources/"
+      ]
     }
   ]
 }

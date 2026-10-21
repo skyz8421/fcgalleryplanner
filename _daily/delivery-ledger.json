@@ -201,6 +201,42 @@
         "_daily/routine/2026-10-21/research-market-review.md",
         "_daily/routine/2026-10-21/release-receipt.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "1b9bf4d820de0573c83f992aa743f5f89a5ddc1bb88323fa513f44939a20fafa",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-10-21T23:17:03.972Z",
+      "deploymentId": "53daedda-5ada-4a5d-8eba-6ee741d63ac2",
+      "evidencePath": "_daily/routine/2026-10-22/live-history-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-22/source-audit.json",
+        "_daily/routine/2026-10-22/research-market-review.md",
+        "_daily/routine/2026-10-22/release-receipt.json"
+      ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "d1733aa8bc2db23d4176ea056d84f88cb61c39d8e4f375a29c22827268fc791c",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-10-21T23:17:03.973Z",
+      "deploymentId": "53daedda-5ada-4a5d-8eba-6ee741d63ac2",
+      "evidencePath": "_daily/routine/2026-10-22/live-history-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-22/source-audit.json",
+        "_daily/routine/2026-10-22/research-market-review.md",
+        "_daily/routine/2026-10-22/release-receipt.json"
+      ]
     }
   ]
 }
