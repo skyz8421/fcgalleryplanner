@@ -184,6 +184,30 @@
         "/gallery-guide/",
         "/sources/"
       ]
+    },
+    {
+      "id": "gallery-season-2-expansion",
+      "need": "Explain officially announced Season2 MLS, NWSL and Roshn Saudi League expansion, existing Sets and collection carryover, and link players to points and token planning",
+      "sourceUrl": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-de/football-ultimate-team%E2%84%A2-27---season-2-fc-heritage/13817477",
+      "sourceFile": "_daily/routine/2026-10-23/source-audit.json",
+      "routes": [
+        "/",
+        "/gallery-guide/",
+        "/gallery-levels/",
+        "/sources/"
+      ]
+    },
+    {
+      "id": "gallery-developer-token-and-autofill-clarifications",
+      "need": "Apply verified original developer Q&A to token carryover, limited Season3 store refresh plan and non-optimal autofill; connect the existing reserve and score calculators",
+      "sourceUrl": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-27---fut-developer-qa-responses/13797996",
+      "sourceFile": "_daily/routine/2026-10-23/source-audit.json",
+      "routes": [
+        "/",
+        "/gallery-guide/",
+        "/gallery-levels/",
+        "/sources/"
+      ]
     }
   ]
 }

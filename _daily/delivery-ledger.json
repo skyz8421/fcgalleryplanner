@@ -237,6 +237,48 @@
         "_daily/routine/2026-10-22/research-market-review.md",
         "_daily/routine/2026-10-22/release-receipt.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "0749d73568a442c626696994c8d469d913c236e58f9dccd68bff277c9e2351d0",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/gallery-levels/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-10-23T02:01:32.739Z",
+      "deploymentId": "7db80db5-48fc-42e7-b75f-b8050c973e72",
+      "evidencePath": "_daily/routine/2026-10-23/live-season-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-23/source-audit.json",
+        "_daily/routine/2026-10-23/research-market-review.md",
+        "_daily/routine/2026-10-23/release-receipt.json",
+        "_daily/routine/2026-10-23/live-hydration-qa.json",
+        "_daily/routine/2026-10-23/qa-instrument-note.json"
+      ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "e17426ceb3f19f65475ba2143d6ed4c6df7b7ef580d61b5c8b7afa4732d204b7",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/gallery-levels/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-10-23T02:01:32.740Z",
+      "deploymentId": "7db80db5-48fc-42e7-b75f-b8050c973e72",
+      "evidencePath": "_daily/routine/2026-10-23/live-season-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-23/source-audit.json",
+        "_daily/routine/2026-10-23/research-market-review.md",
+        "_daily/routine/2026-10-23/release-receipt.json",
+        "_daily/routine/2026-10-23/live-hydration-qa.json",
+        "_daily/routine/2026-10-23/qa-instrument-note.json"
+      ]
     }
   ]
 }
