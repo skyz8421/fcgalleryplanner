@@ -12,6 +12,17 @@ export default function GalleryGuidePage() {
         <p>Gallery turns your eligible player collection into sets. Fill a set, improve its score and claim the rewards for its grade. Your overall Gallery level and your spendable Gallery tokens are separate progress tracks.</p>
         <img src="/gallery-process.svg" width={900} height={240} alt="Eligible collection items fill sets; set scores determine grades and contribute to Gallery progress, while grade rewards can award tokens." />
 
+        <section id="season-2" tabIndex={-1} aria-label="Season 2 Gallery changes">
+          <h2>Season 2 Gallery: new Sets, same collection</h2>
+          <p><strong>FC Heritage adds more than 60 Gallery Sets, including League and Club Sets for MLS, NWSL and the Roshn Saudi League.</strong> Start by checking those categories against the items you have already collected.</p>
+          <div className="table-scroll collection-history-scroll" tabIndex={0} role="region" aria-label="Season 2 carryover comparison"><table className="data-table collection-history-table"><caption>What changes when the Season changes?</caption><thead><tr><th scope="col">Gallery part</th><th scope="col">What it means for your plan</th></tr></thead><tbody>
+            <tr><th scope="row">New League and Club Sets</th><td>More options to compare. Check each Set&apos;s requirements and rewards in-game before entering an upgrade.</td></tr>
+            <tr><th scope="row">Previously released Sets</th><td>They remain available through the game. You can keep working on them alongside new Sets.</td></tr>
+            <tr><th scope="row">Previously collected items</th><td>Eligible recorded versions can fill new Sets, even after leaving your Club. <Link href="#new-sets">Check your collection history</Link> first.</td></tr>
+          </tbody></table></div>
+          <p>More Sets do not guarantee a particular Gallery level or grade. Compare their score gains in the <Link href="/gallery-levels/#points-gap">points-gap calculator</Link>, or check <Link href="/gallery-levels/#token-reserve">token carryover and your spending reserve</Link> before choosing a reward.</p>
+        </section>
+
         <h2>Start with the collection you already have</h2>
         <ol>
           <li>Open a set and read its item requirements. Check every required slot before buying anything.</li>
@@ -31,6 +42,8 @@ export default function GalleryGuidePage() {
         </tbody></table></div>
         <p>Open the new Set and use autocomplete or add eligible items manually; owning them does not automatically fill the Set. Check its actual score and grade, then mark matching cards <strong>Already collected</strong> in the <Link href="/">route planner</Link>. Enter only the improvements you still need.</p>
         <p>See EA&apos;s <a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-launch-update">New Gallery Sets explanation</a> and <a href="https://help.ea.com/en/articles/ea-sports-fc/missing-rewards/">item-filling guidance</a>. A separate Objective or Token Store reward can have its own requirements; check that offer&apos;s details.</p>
+
+        <aside className="notice" aria-label="Autofill score check"><strong>Autocomplete is a starting point.</strong><p>EA&apos;s developers explain that autofill does not always find the highest-scoring combination. Compare eligible Item Scores and bonus tags with the <Link href="/gallery-score-calculator/">Set score calculator</Link> before buying an upgrade.</p></aside>
 
         <h2 id="card-versions">Check the version, not just the player&apos;s name</h2>
         <p>Different versions of a player are different Gallery items. Loan items do not count. An Evolution uses its original item version for Gallery; upgrading it does not create another Gallery version or increase its Gallery score through the Evolution upgrades.</p>

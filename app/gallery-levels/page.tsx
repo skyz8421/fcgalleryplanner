@@ -100,7 +100,9 @@ export default function GalleryLevelsPage() {
         <p>A route with the biggest score gain is not automatically the route with the most useful token gain. Compare the new tokens from your proposed grades with the gap to your cumulative target.</p>
         <section id="token-reserve" tabIndex={-1} aria-label="Spend or save Gallery tokens">
           <h2>Spend Gallery tokens now or keep a reserve?</h2>
-          <p>Start with a reward you would use and the balance you want to keep. A future offer is uncertain: EA says the Gallery Token Store can change during the season. An offer countdown alone does not establish when a replacement arrives or what happens to unspent tokens.</p>
+          <p><strong>Gallery Tokens carry over between Seasons.</strong> EA&apos;s developers say they do not expire or reset at a Season change, so you can keep a reserve instead of spending just because the Season ends.</p>
+          <aside className="notice" aria-label="Gallery Store refresh plan"><strong>Store refresh and token balance are different.</strong><p>EA plans a Gallery Store refresh for Season 3, with no new Hall of FUT items in that first refresh. Check each offer&apos;s own requirements and timer; keeping tokens does not keep an individual offer available.</p></aside>
+          <p>Use the calculator to compare a purchase with the balance you want left. For the added League and Club Sets, see <Link href="/gallery-guide/#season-2">what Season 2 changes in Gallery</Link>.</p>
           <TokenReserveCalculator />
           <p>For example, with 750 tokens, a 500-token purchase leaves 250. If you want 750 left for another reward, you need 500 more before buying. Keeping all 750 already meets that reserve. These are example amounts, not a current store listing.</p>
           <p>For earning and claiming set rewards, follow the <Link href="/gallery-guide/">Gallery collection steps</Link>. Check <a href="https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/">EA&apos;s Gallery help</a> and the offer in your game before choosing a purchase.</p>

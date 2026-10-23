@@ -33,6 +33,6 @@ export default function TokenReserveCalculator() {
       </div>
       <p>To buy and retain your reserve, your desired balance before buying is <strong>{goal.toLocaleString('en-US')} tokens</strong>. In the <Link href="/">route planner</Link>, open the token balance helper and use this as your desired balance, alongside your current balance and past spending.</p>
     </>}
-    <p>This comparison uses only the amounts you enter. Check the live offer&apos;s currency, cost, purchase limit and expiry in your game. It does not predict future offers or token rollover.</p>
+    <p>This comparison uses only the amounts you enter. Check the live offer&apos;s currency, cost, purchase limit and expiry in your game. It does not predict future offers.</p>
   </section>;
 }
