@@ -279,6 +279,24 @@
         "_daily/routine/2026-10-23/live-hydration-qa.json",
         "_daily/routine/2026-10-23/qa-instrument-note.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "a0e6c3f70684cbdfc57b7185f94162a3886237b1318ddff0b59dd1a69387b3eb",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-levels/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-10-23T23:13:28.052Z",
+      "deploymentId": "fbd30c68-a2db-4d86-b0de-8da2d6e6ce77",
+      "evidencePath": "_daily/routine/2026-10-24/live-rewards-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-24/source-audit.json",
+        "_daily/routine/2026-10-24/research-market-review.md",
+        "_daily/routine/2026-10-24/release-receipt.json"
+      ]
     }
   ]
 }

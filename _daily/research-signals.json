@@ -208,6 +208,17 @@
         "/gallery-levels/",
         "/sources/"
       ]
+    },
+    {
+      "id": "gallery-hall-of-fut-roster-versus-refresh",
+      "need": "Resolve PnP token spending confusion by distinguishing future roster plans, existing-player Unleashed campaign and Store refresh without assuming acquisition method",
+      "sourceUrl": "https://www.reddit.com/r/EASportsFC/comments/1xctzft/tokens_spending_on_a_pnp/",
+      "sourceFile": "_daily/routine/2026-10-24/source-audit.json",
+      "routes": [
+        "/",
+        "/gallery-levels/",
+        "/sources/"
+      ]
     }
   ]
 }
