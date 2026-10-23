@@ -107,6 +107,19 @@ export default function GalleryLevelsPage() {
           <p>For example, with 750 tokens, a 500-token purchase leaves 250. If you want 750 left for another reward, you need 500 more before buying. Keeping all 750 already meets that reserve. These are example amounts, not a current store listing.</p>
           <p>For earning and claiming set rewards, follow the <Link href="/gallery-guide/">Gallery collection steps</Link>. Check <a href="https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/">EA&apos;s Gallery help</a> and the offer in your game before choosing a purchase.</p>
         </section>
+        <section id="future-rewards" tabIndex={-1} aria-label="Future Gallery rewards">
+          <h2>Are more Hall of FUT players coming?</h2>
+          <p>EA&apos;s developers say they do not currently plan to expand the Hall of FUT player roster in FC 27. They do plan to feature the existing roster in a Hall of FUT Unleashed campaign. New versions of existing players and new names in the roster are different things.</p>
+          <div className="table-scroll collection-history-scroll" tabIndex={0} role="region" aria-label="Gallery reward plans comparison">
+            <table className="data-table collection-history-table"><caption>What each announced plan means for your tokens</caption><thead><tr><th scope="col">Plan</th><th scope="col">What you can use it to decide</th></tr></thead><tbody>
+              <tr><th scope="row">Tokens carry over</th><td>You can keep an unused balance between Seasons. An individual offer can still expire.</td></tr>
+              <tr><th scope="row">Season 3 Store refresh</th><td>EA plans to refresh rewards, without new Hall of FUT items in that first refresh. A refresh does not promise a new player roster.</td></tr>
+              <tr><th scope="row">Hall of FUT Unleashed</th><td>The existing roster is planned to feature in this campaign. That answer does not specify how to obtain those items or promise you can buy them with Gallery Tokens.</td></tr>
+            </tbody></table>
+          </div>
+          <p>For a past-and-present squad, judge an available reward by whether you want to use it now. Saving tokens is an option, but a rumoured player or campaign is not a confirmed future Store offer. Compare a purchase and a retained balance with the <Link href="#token-reserve">token reserve calculator</Link>.</p>
+          <p>Read questions 9, 16 and 19 in the <a href="https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-27---fut-developer-qa-responses/13797996">EA FUT Developer Q&amp;A</a> for the Store and roster plans. If you decide to earn more tokens, compare your entered Set upgrades in the <Link href="/">route planner</Link>.</p>
+        </section>
         <p>Before using a planned set result, check its <Link href="/gallery-score-calculator/">Item Scores and tag bonuses</Link>. If First Owner is doing most of the work, the <Link href="/first-owner-bonus/">First Owner bonus guide</Link> explains why market purchases do not replace First Owner items.</p>
         <p>See <a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-launch-update">EA&apos;s FC 27 launch update</a> for the Gallery milestone overview.</p>
       </div>

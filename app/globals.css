@@ -42,3 +42,6 @@
 @media(max-width:620px){.collection-history-scroll::before{display:none}.collection-history-table{min-width:0;width:100%;table-layout:fixed}.collection-history-table th:first-child{width:44%}.collection-history-table th,.collection-history-table td{overflow-wrap:anywhere}}
 
 #season-2{scroll-margin-top:100px}#season-2:focus-visible{outline:2px solid var(--accent);outline-offset:8px}
+
+#future-rewards { scroll-margin-top: 100px; }
+#future-rewards:focus-visible { outline: 2px solid var(--accent); outline-offset: 8px; }
