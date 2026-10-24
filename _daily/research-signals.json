@@ -219,6 +219,18 @@
         "/gallery-levels/",
         "/sources/"
       ]
+    },
+    {
+      "id": "gallery-level10-campaign-reward-pool-fact-check",
+      "need": "Verify whether an active campaign changes the Level10 Holographic Base Hero Pick pool; do not infer player eligibility or odds from pack availability or anecdotal replies",
+      "sourceUrl": "https://www.reddit.com/r/EASportsFC/comments/1xe4eu9/does_the_scream_zola_promo_mean_i_wont_be_able_to/",
+      "sourceFile": "_daily/routine/2026-10-25/research-market-review.md",
+      "routes": [
+        "/gallery-levels/"
+      ],
+      "observedAt": "2026-10-24T23:14:27.925157+00:00",
+      "nextAction": "Recheck EA reward details and original thread on next daily run; publish only with EA confirmation or reproducible current-game pool evidence",
+      "acceptance": "Primary evidence explicitly establishes campaign versus milestone-pick eligibility; no price prediction or guaranteed player claim"
     }
   ]
 }
