@@ -231,6 +231,18 @@
       "observedAt": "2026-10-24T23:14:27.925157+00:00",
       "nextAction": "Recheck EA reward details and original thread on next daily run; publish only with EA confirmation or reproducible current-game pool evidence",
       "acceptance": "Primary evidence explicitly establishes campaign versus milestone-pick eligibility; no price prediction or guaranteed player claim"
+    },
+    {
+      "id": "gallery-guide-dead-click-target",
+      "need": "Locate the new Gallery guide dead click with a recording or heatmap before choosing a repair; URL-level aggregate is insufficient to identify an element",
+      "sourceFile": "_daily/routine/2026-10-26/clarity-url-review.json",
+      "routes": [
+        "/gallery-guide/"
+      ],
+      "observedAt": "2026-10-25T23:10:55.490126+00:00",
+      "nextAction": "Restore Clarity recording access and inspect dead-click session for guide; retain independent older levels target pending",
+      "acceptance": "Identify exact element and reproduce or substantiate the failed action; fix and live-verify only the corresponding behavior",
+      "blockedBy": "Current browser Clarity session expired; normal Chrome OpenCLI extension disconnected"
     }
   ]
 }
