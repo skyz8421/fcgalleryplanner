@@ -315,6 +315,24 @@
         "_daily/routine/2026-10-28/research-market-review.md",
         "_daily/routine/2026-10-28/release-receipt.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "31606ccd8f0339d03040a098ccf6dcca288fdfe453d70a4808d0810b36c18be6",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-10-28T23:22:59.028Z",
+      "deploymentId": "5548425f-f38a-4b4e-bab7-db4ebf0b8498",
+      "evidencePath": "_daily/routine/2026-10-29/live-reward-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-29/search-patch-market.json",
+        "_daily/routine/2026-10-29/research-market-review.md",
+        "_daily/routine/2026-10-29/release-receipt.json"
+      ]
     }
   ]
 }

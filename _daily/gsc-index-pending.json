@@ -5,12 +5,12 @@
     "https://fcgallery.wiki/",
     "https://fcgallery.wiki/sources/"
   ],
-  "lastOutcome": "Changed pages deployed and verified; GSC0accepted, login unavailable; three URLs queued for recrawl",
+  "lastOutcome": "Three changed pages live verified; GSC login blocked; requests0 accepted0, queue retained",
   "lastQuotaObservedAt": "2026-10-12T23:24:05.699102+00:00",
-  "sourceEvidence": "_daily/routine/2026-10-28/gsc-request.log",
-  "lastAttemptAt": "2026-10-28T13:35:53.815565+00:00",
+  "sourceEvidence": "_daily/routine/2026-10-29/gsc-request.log",
+  "lastAttemptAt": "2026-10-28T23:24:25.899548+00:00",
   "latestChangedUrl": "https://fcgallery.wiki/",
-  "latestDeployment": "e6e4aa4e-a49c-43eb-9ad5-703cb473ca74",
+  "latestDeployment": "5548425f-f38a-4b4e-bab7-db4ebf0b8498",
   "latestChangedUrls": [
     "https://fcgallery.wiki/gallery-guide/",
     "https://fcgallery.wiki/",

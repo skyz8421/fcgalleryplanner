@@ -254,6 +254,17 @@
         "/gallery-guide/",
         "/sources/"
       ]
+    },
+    {
+      "id": "gallery-v110-reward-notification-checks",
+      "need": "Separate inaccurate token pop-ups and missing Gallery Objective notifications from actual unclaimed or missing rewards before buying more cards",
+      "sourceUrl": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc%E2%84%A2-27--title-update-v1-1/13827930",
+      "routes": [
+        "/",
+        "/gallery-guide/",
+        "/sources/"
+      ],
+      "evidence": "_daily/routine/2026-10-29/search-patch-market.json"
     }
   ]
 }

@@ -99,7 +99,18 @@ export default function GalleryGuidePage() {
         </ol>
         <p>The checklist stays in the same tab after a reload; calculate the unchanged plan to see it again. Editing, clearing or replacing the plan resets the checks. Each comparison route has its own checklist. Saved plan exports and share links contain your planning inputs, without the checkmarks.</p>
 
-        <aside id="objective-rewards" tabIndex={-1} className="notice" aria-label="Gallery objective reward check"><strong>Missing a Gallery objective reward?</strong><p>First check the type of Objective. General Gallery Objectives count progress made after they become available. EA&apos;s <a href="https://help.ea.com/en/articles/ea-sports-fc/ultimate-team-objectives/">Objectives guide</a> also specifies an exception: if an Objective requires a particular subset you have already completed, that earlier completion can count. Read the exact requirement before repeating a Set or buying more cards.</p><p>These timing rules concern Objective rewards; they do not diagnose a Set score that fails to save. See <a href="https://help.ea.com/en/articles/ea-sports-fc/missing-rewards/">EA&apos;s missing-rewards help</a> for further checks.</p></aside>
+        <section id="objective-rewards" tabIndex={-1} aria-label="Gallery objective reward check">
+          <h2>Missing reward, or missing notification?</h2>
+          <p><strong>Check the reward screen and token balance before repeating a Set.</strong> A missing pop-up or a wrong number in a pop-up does not, by itself, show that a reward was lost.</p>
+          <div className="table-scroll" tabIndex={0} role="region" aria-label="Gallery reward notification comparison"><table className="data-table"><caption>Two notification issues listed in EA&apos;s v1.1.0 notes</caption><thead><tr><th scope="col">Symptom</th><th scope="col">What EA documented</th><th scope="col">What to check</th></tr></thead><tbody>
+            <tr><th scope="row">Wrong token number in a pop-up</th><td>When several tokens were earned together, the notification could show an incorrect amount. EA described this as visual only.</td><td>Use your actual token balance when updating a plan, rather than the pop-up number.</td></tr>
+            <tr><th scope="row">No Gallery Objective completion pop-up</th><td>The completion notification could be missing.</td><td>Open the Objective itself and check its progress and reward status.</td></tr>
+          </tbody></table></div>
+          <p>These are separate entries in the <a href="https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc%E2%84%A2-27--title-update-v1-1/13827930">v1.1.0 update notes</a>. Check your installed version; the notes do not promise recovery of an unsaved score or an undelivered reward.</p>
+          <h3>If the Objective itself is incomplete</h3>
+          <p>Check the type of Objective. General Gallery Objectives count progress made after they become available. EA&apos;s <a href="https://help.ea.com/en/articles/ea-sports-fc/ultimate-team-objectives/">Objectives guide</a> also specifies an exception: if an Objective requires a particular subset you have already completed, that earlier completion can count. Read the exact requirement before repeating a Set or buying more cards.</p>
+          <p>If your reward is still missing, use <a href="https://help.ea.com/en/articles/ea-sports-fc/missing-rewards/">EA&apos;s missing-rewards help</a>. Once your balance is confirmed, check your <Link href="/gallery-levels/#token-reserve">token reserve</Link> before planning another purchase.</p>
+        </section>
 
         <h2>Coins at risk and coins needed are different</h2>
         <p>A buy-and-resell route needs enough coins to buy its most demanding next item. Its eventual coin loss depends on resale prices and market tax. A low estimated loss does not make a route affordable when you cannot fund the first purchase.</p>
