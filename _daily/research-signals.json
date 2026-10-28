@@ -243,6 +243,17 @@
       "nextAction": "Restore Clarity recording access and inspect dead-click session for guide; retain independent older levels target pending",
       "acceptance": "Identify exact element and reproduce or substantiate the failed action; fix and live-verify only the corresponding behavior",
       "blockedBy": "Current browser Clarity session expired; normal Chrome OpenCLI extension disconnected"
+    },
+    {
+      "id": "gallery-v110-display-navigation-symptoms",
+      "need": "Explain officially documented Gallery grade indicators, animation and navigation issues without claiming unsaved score or reward recovery",
+      "sourceUrl": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc%E2%84%A2-27--title-update-v1-1/13827930",
+      "sourceFile": "_daily/routine/2026-10-28/patchcheck.json",
+      "routes": [
+        "/",
+        "/gallery-guide/",
+        "/sources/"
+      ]
     }
   ]
 }

@@ -12,6 +12,18 @@ export default function GalleryGuidePage() {
         <p>Gallery turns your eligible player collection into sets. Fill a set, improve its score and claim the rewards for its grade. Your overall Gallery level and your spendable Gallery tokens are separate progress tracks.</p>
         <img src="/gallery-process.svg" width={900} height={240} alt="Eligible collection items fill sets; set scores determine grades and contribute to Gallery progress, while grade rewards can award tokens." />
 
+        <section id="display-and-navigation" tabIndex={-1} aria-label="Gallery display and navigation checks">
+          <h2>Wrong grade display or stuck Gallery menu?</h2>
+          <p>EA&apos;s <a href="https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc%E2%84%A2-27--title-update-v1-1/13827930">v1.1.0 update notes</a> list these Gallery issues as addressed. Check your installed version before comparing symptoms.</p>
+          <div className="table-scroll" tabIndex={0} role="region" aria-label="Gallery update symptom comparison"><table className="data-table"><caption>Match the symptom to the documented issue</caption><thead><tr><th scope="col">What you see</th><th scope="col">EA&apos;s listed issue</th></tr></thead><tbody>
+            <tr><th scope="row">S grades appear completed</th><td>Incorrect completion indicators and lit grades on unfinished Sets.</td></tr>
+            <tr><th scope="row">Grading looks wrong</th><td>Overlapping repeat-grading animations or a missing Gallery level display.</td></tr>
+            <tr><th scope="row">Rewards screen gets stuck</th><td>Opening a new-Set notification while viewing rewards could lock navigation.</td></tr>
+            <tr><th scope="row">Navigation jumps or fails</th><td>Lost menu selection after backing out; on PC, category selection using mouse then Enter.</td></tr>
+          </tbody></table></div>
+          <p>These notes do not establish that an unsaved score or missing reward has been recovered. Check the Set&apos;s actual score and claimable rewards before changing your <Link href="/gallery-levels/#points-gap">level target</Link> or buying more cards. For reward eligibility, use the <Link href="#objective-rewards">Objective checks below</Link>.</p>
+        </section>
+
         <section id="season-2" tabIndex={-1} aria-label="Season 2 Gallery changes">
           <h2>Season 2 Gallery: new Sets, same collection</h2>
           <p><strong>FC Heritage adds more than 60 Gallery Sets, including League and Club Sets for MLS, NWSL and the Roshn Saudi League.</strong> Start by checking those categories against the items you have already collected.</p>
@@ -87,7 +99,7 @@ export default function GalleryGuidePage() {
         </ol>
         <p>The checklist stays in the same tab after a reload; calculate the unchanged plan to see it again. Editing, clearing or replacing the plan resets the checks. Each comparison route has its own checklist. Saved plan exports and share links contain your planning inputs, without the checkmarks.</p>
 
-        <aside className="notice" aria-label="Gallery objective reward check"><strong>Missing a Gallery objective reward?</strong><p>First check the type of Objective. General Gallery Objectives count progress made after they become available. EA&apos;s <a href="https://help.ea.com/en/articles/ea-sports-fc/ultimate-team-objectives/">Objectives guide</a> also specifies an exception: if an Objective requires a particular subset you have already completed, that earlier completion can count. Read the exact requirement before repeating a Set or buying more cards.</p><p>These timing rules concern Objective rewards; they do not diagnose a Set score that fails to save. See <a href="https://help.ea.com/en/articles/ea-sports-fc/missing-rewards/">EA&apos;s missing-rewards help</a> for further checks.</p></aside>
+        <aside id="objective-rewards" tabIndex={-1} className="notice" aria-label="Gallery objective reward check"><strong>Missing a Gallery objective reward?</strong><p>First check the type of Objective. General Gallery Objectives count progress made after they become available. EA&apos;s <a href="https://help.ea.com/en/articles/ea-sports-fc/ultimate-team-objectives/">Objectives guide</a> also specifies an exception: if an Objective requires a particular subset you have already completed, that earlier completion can count. Read the exact requirement before repeating a Set or buying more cards.</p><p>These timing rules concern Objective rewards; they do not diagnose a Set score that fails to save. See <a href="https://help.ea.com/en/articles/ea-sports-fc/missing-rewards/">EA&apos;s missing-rewards help</a> for further checks.</p></aside>
 
         <h2>Coins at risk and coins needed are different</h2>
         <p>A buy-and-resell route needs enough coins to buy its most demanding next item. Its eventual coin loss depends on resale prices and market tax. A low estimated loss does not make a route affordable when you cannot fund the first purchase.</p>

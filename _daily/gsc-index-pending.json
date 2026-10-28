@@ -1,15 +1,19 @@
 {
   "property": "sc-domain:fcgallery.wiki",
-  "pendingUrls": [],
-  "lastOutcome": "Accepted 3 updated URL requests; not indexing. Remaining 0.",
-  "lastQuotaObservedAt": "2026-10-12T23:24:05.699102+00:00",
-  "sourceEvidence": "_daily/routine/2026-10-24/gsc-fallback-queue.json",
-  "lastAttemptAt": "2026-10-23T23:20:30.817155+00:00",
-  "latestChangedUrl": "https://fcgallery.wiki/",
-  "latestDeployment": "fbd30c68-a2db-4d86-b0de-8da2d6e6ce77",
-  "latestChangedUrls": [
+  "pendingUrls": [
+    "https://fcgallery.wiki/gallery-guide/",
     "https://fcgallery.wiki/",
-    "https://fcgallery.wiki/gallery-levels/",
+    "https://fcgallery.wiki/sources/"
+  ],
+  "lastOutcome": "Changed pages deployed and verified; GSC0accepted, login unavailable; three URLs queued for recrawl",
+  "lastQuotaObservedAt": "2026-10-12T23:24:05.699102+00:00",
+  "sourceEvidence": "_daily/routine/2026-10-28/gsc-request.log",
+  "lastAttemptAt": "2026-10-28T13:35:53.815565+00:00",
+  "latestChangedUrl": "https://fcgallery.wiki/",
+  "latestDeployment": "e6e4aa4e-a49c-43eb-9ad5-703cb473ca74",
+  "latestChangedUrls": [
+    "https://fcgallery.wiki/gallery-guide/",
+    "https://fcgallery.wiki/",
     "https://fcgallery.wiki/sources/"
   ]
 }

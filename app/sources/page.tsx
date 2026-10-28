@@ -22,6 +22,7 @@ export default function SourcesPage() {
           <li><a href="https://help.ea.com/en/articles/ea-sports-fc/community-api/">EA Community API information</a>: account integration through approved community partners. FCGallery has no approved account integration.</li>
           <li><a href="https://forums.ea.com/blog/ea-sports-fc-game-info-hub-de/football-ultimate-team%E2%84%A2-27---season-2-fc-heritage/13817477">EA Season 2: FC Heritage announcement</a>: more than 60 new Gallery Sets, including MLS, NWSL and Roshn Saudi League Club and League Sets. See the <Link href="/gallery-guide/#season-2">Season 2 comparison</Link>.</li>
           <li><a href="https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-27---fut-developer-qa-responses/13797996">EA FUT Developer Q&amp;A</a>: autofill limitations, Gallery Token carryover and planned Store changes, explained alongside the <Link href="/gallery-levels/#token-reserve">token reserve calculator</Link> and <Link href="/gallery-levels/#future-rewards">Store refresh versus future player plans</Link>.</li>
+          <li><a href="https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc%E2%84%A2-27--title-update-v1-1/13827930">EA v1.1.0 update notes</a>: documented issues summarized in the <Link href="/gallery-guide/#display-and-navigation">Gallery symptom comparison</Link>.</li>
         </ul>
 
         <h2>Public-tool scoring references</h2>
