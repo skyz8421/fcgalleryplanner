@@ -105,11 +105,11 @@
         "screenshot": "_daily/routine/2026-10-24/gsc-changed-levels-2.png"
       }
     ],
-    "inspectedAt": "2026-10-28T23:13:15.742925+00:00",
+    "inspectedAt": "2026-10-29T23:12:55.397598+00:00",
     "indexed": true,
     "screenshot": "_daily/routine/2026-10-24/gsc-changed-levels-2.png",
     "requestedAt": "2026-10-23T23:18:43.676Z",
-    "inspectionEvidence": "_daily/routine/2026-10-29/inspection.json",
+    "inspectionEvidence": "_daily/routine/2026-10-30/inspection.json",
     "lastCrawlTime": "2026-10-23T23:20:54Z",
     "googleCanonical": "https://fcgallery.wiki/",
     "userCanonical": "https://fcgallery.wiki/",
@@ -120,7 +120,7 @@
     "status": "requested",
     "inspection": "Submitted and indexed",
     "requested": true,
-    "inspectedAt": "2026-10-28T23:13:23.130838+00:00",
+    "inspectedAt": "2026-10-29T23:13:03.253639+00:00",
     "evidence": "../futgg/_raw/daily/2026-10-07/gsc-index-request.log",
     "indexed": true,
     "screenshot": "../futgg/_raw/daily/2026-10-07/gsc-shots/2026-10-06T23-23-34-684Z-https%3A%2F%2Ffcgallery.wiki%2Fgallery-score-calculator%2F.png",
@@ -136,7 +136,7 @@
       }
     ],
     "lastCrawlTime": "2026-10-23T07:19:27Z",
-    "inspectionEvidence": "_daily/routine/2026-10-29/inspection.json",
+    "inspectionEvidence": "_daily/routine/2026-10-30/inspection.json",
     "googleCanonical": "https://fcgallery.wiki/gallery-score-calculator/",
     "userCanonical": "https://fcgallery.wiki/gallery-score-calculator/"
   },
@@ -144,7 +144,7 @@
     "status": "requested",
     "inspection": "Submitted and indexed",
     "requested": true,
-    "inspectedAt": "2026-10-28T23:13:33.133125+00:00",
+    "inspectedAt": "2026-10-29T23:13:10.939077+00:00",
     "evidence": "_daily/routine/2026-10-24/gsc-fallback-queue.json",
     "indexed": true,
     "screenshot": "_daily/routine/2026-10-24/gsc-changed-levels-3.png",
@@ -207,7 +207,7 @@
         "screenshot": "_daily/routine/2026-10-24/gsc-changed-levels-3.png"
       }
     ],
-    "inspectionEvidence": "_daily/routine/2026-10-29/inspection.json",
+    "inspectionEvidence": "_daily/routine/2026-10-30/inspection.json",
     "lastCrawlTime": "2026-10-23T23:20:53Z",
     "googleCanonical": "https://fcgallery.wiki/gallery-levels/",
     "userCanonical": "https://fcgallery.wiki/gallery-levels/",
@@ -218,7 +218,7 @@
     "status": "requested",
     "inspection": "Discovered - currently not indexed",
     "requested": true,
-    "inspectedAt": "2026-10-28T23:13:42.176804+00:00",
+    "inspectedAt": "2026-10-29T23:13:18.440865+00:00",
     "evidence": "_daily/routine/2026-10-13/gsc-fallback-queue.json",
     "lastSkippedAt": "2026-10-05T23:13:01.187198+00:00",
     "indexed": false,
@@ -241,18 +241,18 @@
         "screenshot": "_daily/routine/2026-10-13/gsc-fallback-rest-2.png"
       }
     ],
-    "inspectionEvidence": "_daily/routine/2026-10-29/inspection.json",
+    "inspectionEvidence": "_daily/routine/2026-10-30/inspection.json",
     "requestedAt": "2026-10-12T23:18:58.787Z"
   },
   "https://fcgallery.wiki/gallery-guide/": {
     "status": "requested",
     "inspection": "Submitted and indexed",
     "requested": true,
-    "inspectedAt": "2026-10-28T23:13:49.996109+00:00",
+    "inspectedAt": "2026-10-29T23:13:26.427539+00:00",
     "evidence": "_daily/routine/2026-10-23/gsc-fallback-queue.json",
     "lastSkippedAt": "2026-10-06T23:25:10Z",
     "indexed": true,
-    "inspectionEvidence": "_daily/routine/2026-10-29/inspection.json",
+    "inspectionEvidence": "_daily/routine/2026-10-30/inspection.json",
     "attempts": [
       {
         "at": "2026-10-10T23:20:51Z",
@@ -336,11 +336,18 @@
         "requested": false,
         "evidence": "_daily/routine/2026-10-29/gsc-request.log",
         "reason": "Dedicated GSC profile not signed in; no request made"
+      },
+      {
+        "at": "2026-10-29T23:17:48.781512+00:00",
+        "status": "blocked_not_signed_in",
+        "requested": false,
+        "evidence": "_daily/routine/2026-10-30/gsc-request.log",
+        "reason": "Queued recrawl first URL reached sign-in requirement; script stopped without submitting"
       }
     ],
     "attemptedAt": "2026-10-23T02:05:34.549Z",
     "requestedAt": "2026-10-23T02:05:34.549Z",
-    "lastCrawlTime": "2026-10-19T23:30:38Z",
+    "lastCrawlTime": "2026-10-29T16:20:14Z",
     "googleCanonical": "https://fcgallery.wiki/gallery-guide/",
     "userCanonical": "https://fcgallery.wiki/gallery-guide/",
     "screenshot": "_daily/routine/2026-10-23/gsc-changed-levels-3.png",
@@ -349,13 +356,13 @@
   },
   "https://fcgallery.wiki/sources/": {
     "inspection": "Submitted and indexed",
-    "inspectedAt": "2026-10-28T23:13:58.297839+00:00",
+    "inspectedAt": "2026-10-29T23:13:34.203446+00:00",
     "evidence": "_daily/routine/2026-10-24/gsc-fallback-queue.json",
     "requested": true,
     "status": "requested",
     "lastSkippedAt": "2026-10-06T23:25:10Z",
     "indexed": true,
-    "inspectionEvidence": "_daily/routine/2026-10-29/inspection.json",
+    "inspectionEvidence": "_daily/routine/2026-10-30/inspection.json",
     "attempts": [
       {
         "at": "2026-10-12T23:20:00.778Z",
@@ -416,14 +423,14 @@
     "userCanonical": "https://fcgallery.wiki/sources/"
   },
   "https://fcgallery.wiki/about/": {
-    "inspection": "URL is unknown to Google",
-    "inspectedAt": "2026-10-28T23:14:05.975077+00:00",
+    "inspection": "Discovered - currently not indexed",
+    "inspectedAt": "2026-10-29T23:13:41.927866+00:00",
     "evidence": "_daily/routine/2026-10-13/gsc-fallback-queue.json",
     "requested": true,
     "status": "requested",
     "lastSkippedAt": "2026-10-06T23:25:10Z",
     "indexed": false,
-    "inspectionEvidence": "_daily/routine/2026-10-29/inspection.json",
+    "inspectionEvidence": "_daily/routine/2026-10-30/inspection.json",
     "attempts": [
       {
         "at": "2026-10-12T23:20:51.783Z",
@@ -439,13 +446,13 @@
   },
   "https://fcgallery.wiki/contact/": {
     "inspection": "Submitted and indexed",
-    "inspectedAt": "2026-10-28T23:14:14.656431+00:00",
+    "inspectedAt": "2026-10-29T23:13:50.182559+00:00",
     "evidence": "_daily/routine/2026-10-15/gsc-fallback-queue.json",
     "requested": true,
     "status": "requested",
     "lastSkippedAt": "2026-10-06T23:25:10Z",
     "indexed": true,
-    "inspectionEvidence": "_daily/routine/2026-10-29/inspection.json",
+    "inspectionEvidence": "_daily/routine/2026-10-30/inspection.json",
     "attempts": [
       {
         "at": "2026-10-12T23:23:43.783Z",
@@ -477,13 +484,13 @@
     "requestInspectedAt": "2026-10-14T23:13:25.330Z",
     "requestedAt": "2026-10-14T23:13:47.336Z",
     "screenshot": "_daily/routine/2026-10-15/gsc-fallback-rest-1.png",
-    "lastCrawlTime": "2026-10-14T23:15:04Z",
+    "lastCrawlTime": "2026-10-29T17:35:14Z",
     "googleCanonical": "https://fcgallery.wiki/contact/",
     "userCanonical": "https://fcgallery.wiki/contact/"
   },
   "https://fcgallery.wiki/privacy/": {
     "inspection": "Submitted and indexed",
-    "inspectedAt": "2026-10-28T23:14:24.277626+00:00",
+    "inspectedAt": "2026-10-29T23:13:57.857577+00:00",
     "evidence": "../futgg/_raw/daily/2026-10-07/gsc-index-request.log",
     "requested": true,
     "status": "requested",
@@ -501,19 +508,19 @@
       }
     ],
     "lastCrawlTime": "2026-10-06T23:26:50Z",
-    "inspectionEvidence": "_daily/routine/2026-10-29/inspection.json",
+    "inspectionEvidence": "_daily/routine/2026-10-30/inspection.json",
     "googleCanonical": "https://fcgallery.wiki/privacy/",
     "userCanonical": "https://fcgallery.wiki/privacy/"
   },
   "https://fcgallery.wiki/terms/": {
     "inspection": "URL is unknown to Google",
-    "inspectedAt": "2026-10-28T23:14:32.418240+00:00",
+    "inspectedAt": "2026-10-29T23:14:05.768328+00:00",
     "evidence": "_daily/routine/2026-10-15/gsc-fallback-queue.json",
     "requested": true,
     "status": "requested",
     "lastSkippedAt": "2026-10-06T23:25:10Z",
     "indexed": false,
-    "inspectionEvidence": "_daily/routine/2026-10-29/inspection.json",
+    "inspectionEvidence": "_daily/routine/2026-10-30/inspection.json",
     "attempts": [
       {
         "at": "2026-10-13T23:05:26.592Z",
