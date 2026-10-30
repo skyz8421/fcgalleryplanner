@@ -333,6 +333,24 @@
         "_daily/routine/2026-10-29/research-market-review.md",
         "_daily/routine/2026-10-29/release-receipt.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "2491b0ba1b2bb3173c2f1c80b39a19dcbbb7e3e61a7f2c9458798fe5570edaae",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-levels/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-10-30T23:14:02.904Z",
+      "deploymentId": "d1ef0d27-b2c4-4ff3-a084-d91cf0b72f6d",
+      "evidencePath": "_daily/routine/2026-10-31/live-level15-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-10-31/level15-material.json",
+        "_daily/routine/2026-10-31/research-market-review.md",
+        "_daily/routine/2026-10-31/release-receipt.json"
+      ]
     }
   ]
 }

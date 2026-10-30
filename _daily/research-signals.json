@@ -265,6 +265,17 @@
         "/sources/"
       ],
       "evidence": "_daily/routine/2026-10-29/search-patch-market.json"
+    },
+    {
+      "id": "gallery-level15-player-observed-25m",
+      "need": "Answer the newly observed Level15 points query with a source-attributed screenshot and optional editable 25M target, replacing the previous unknown reference without presenting it as an EA threshold",
+      "sourceUrl": "https://x.com/alberth122101_/status/2116169955284537548",
+      "sourceFile": "_daily/routine/2026-10-31/level15-material.json",
+      "routes": [
+        "/",
+        "/gallery-levels/",
+        "/sources/"
+      ]
     }
   ]
 }

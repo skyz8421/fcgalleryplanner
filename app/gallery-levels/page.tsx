@@ -2,7 +2,7 @@ import Link from "@/components/SiteLink";
 import PageShell from "@/components/PageShell";
 import LevelGapCalculator from "@/components/LevelGapCalculator";
 import TokenReserveCalculator from "@/components/TokenReserveCalculator";
-import { galleryLevelSource, reportedLevelPoints } from "@/lib/gallery-levels";
+import { galleryLevelSource, level15ReportSource, reportedLevelPoints } from "@/lib/gallery-levels";
 import { pageMetadata } from "@/lib/site";
 
 const description = "Separate FC 27 Gallery levels, set grades and tokens, view milestone rewards, and calculate the gap to your own next-level target.";
@@ -21,6 +21,7 @@ export default function GalleryLevelsPage() {
     <PageShell title="Gallery levels, grades and rewards" description={description} path="/gallery-levels/">
       <div className="prose">
         <p>There are three numbers to keep apart: your overall Gallery progress, the grade of an individual set, and your Gallery token balance. Improving a set can help more than one of them, but they are not interchangeable.</p>
+        <p className="notice"><strong>Looking for Level 15?</strong> A player screenshot reports a 25,000,000-point target. <Link href="#level-15">See the evidence and calculate your remaining points</Link>.</p>
         <figure style={{ margin: "1.5rem 0" }}>
           <a href="/levels-flow.svg" target="_blank" rel="noopener" aria-label="View the Gallery progress diagram at full size (opens in a new tab)">
             <img src="/levels-flow.svg" width={900} height={240} alt="Gallery sets produce score and grade progress; grade rewards can award tokens, and overall level progress has separate milestone rewards." />
@@ -55,11 +56,11 @@ export default function GalleryLevelsPage() {
 
         <section id="reported-points" tabIndex={-1} aria-label="Reported Gallery level point references">
           <h2>Reported points for Gallery levels</h2>
-          <p><a href={galleryLevelSource}>FUT.GG&apos;s in-game report</a> lists these thresholds. They are third-party observations, not an official EA table. If your game shows points remaining instead of a target, add them to your current score.</p>
+          <p><a href={galleryLevelSource}>FUT.GG&apos;s in-game report</a> supplies Levels 2–14; <a href={level15ReportSource}>Albert&apos;s player screenshot</a> supplies Level 15. These are third-party observations, not an official EA table. If your game shows points remaining instead of a target, add them to your current score.</p>
           <div className="table-scroll" tabIndex={0} role="region" aria-label="Scrollable reported points table">
-            <table className="data-table"><caption>Planning references from FUT.GG</caption><thead><tr><th scope="col">Level</th><th scope="col">Reported points</th></tr></thead><tbody>
+            <table className="data-table"><caption>Reported planning references</caption><thead><tr><th scope="col">Level</th><th scope="col">Reported points</th></tr></thead><tbody>
               {Object.entries(reportedLevelPoints).map(([level, points]) => <tr key={level}><th scope="row">{level}</th><td>{points.toLocaleString("en-US")}</td></tr>)}
-              <tr><th scope="row">15, 20, 25</th><td>Unconfirmed — no preset</td></tr>
+              <tr><th scope="row">20, 25</th><td>Unconfirmed — no preset</td></tr>
             </tbody></table>
           </div>
           <p>For example, 7,131,978 current points plus 3,868,022 remaining gives an 11,000,000 target. This is arithmetic from the Level 12 screen in the linked report, not a formula for other levels.</p>
@@ -75,10 +76,12 @@ export default function GalleryLevelsPage() {
         </section>
 
         <section id="level-15" tabIndex={-1} aria-label="Level 15 planning steps">
-          <h2>Planning for Gallery Level 15</h2>
+          <h2>How many Gallery points for Level 15?</h2>
+          <p><strong>The reported target is 25,000,000 points.</strong> Albert&apos;s Level 14 screenshot shows 15,010,009 current points and 9,989,991 remaining to Level 15. Adding those figures gives the target; it is a player observation, not an EA-published threshold.</p>
+          <figure><a href="/img/gallery-level15-player-report.jpg" target="_blank" rel="noopener"><img src="/img/gallery-level15-player-report.jpg" width={1200} height={675} loading="lazy" alt="Player screenshot showing Gallery Level 14, 15,010,009 points and 9,989,991 points to Gallery Level 15." /></a><figcaption>Source: <a href={level15ReportSource}>Albert (@alberth122101_) on X</a>. <a href="/img/gallery-level15-player-report.jpg" target="_blank" rel="noopener">Open screenshot at full size (new tab)</a>.</figcaption></figure>
           <p>Level 15 has a Holographic Base ICON Pick milestone. Your overall Gallery points determine level progress; a large token balance does not substitute for those points.</p>
-          <ol className="compact-list"><li>Copy your current Gallery points. Choose a provisional Level 15 planning target only if you understand that its threshold is unconfirmed.</li><li>Look for sets you can improve with cards already collected. Count the increase over each set&apos;s current score.</li><li>Compare those gains with market upgrades you can buy within your trading balance. If a required card is unavailable, exclude it rather than planning around a purchase you cannot make.</li></ol>
-          <p>Level 15 remains unconfirmed in the cited report. The calculator leaves its target blank; entering an estimate does not verify that it will unlock the reward. Recheck your actual level after grading sets.</p>
+          <ol className="compact-list"><li>Copy your current Gallery points and choose the reported reference below, or enter your own target.</li><li>Look for sets you can improve with cards already collected. Count the increase over each set&apos;s current score.</li><li>Compare those gains with market upgrades you can buy within your trading balance. If a required card is unavailable, exclude it rather than planning around a purchase you cannot make.</li></ol>
+          <p>The reference is optional and editable. Recheck your actual level after grading sets; a calculated gap does not confirm a reward unlock.</p>
           <LevelGapCalculator />
         </section>
 
