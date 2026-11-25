@@ -276,6 +276,48 @@
         "/gallery-levels/",
         "/sources/"
       ]
+    },
+    {
+      "id": "gallery-v120-early-grade-table-effects",
+      "need": "Explain early grade notifications against actual requirements and ungraded Holographic table effects without promising recovery",
+      "sourceUrl": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc27-title-update-v1-2-0",
+      "sourceFile": "_daily/routine/2026-11-25/research-market-review.md",
+      "routes": [
+        "/",
+        "/gallery-guide/",
+        "/sources/"
+      ]
+    },
+    {
+      "id": "gallery-season3-hall-evolution-decision",
+      "need": "Explain dedicated Season3 Evolutions, no automatic base stat upgrades and spending decision checks with reserve calculator",
+      "sourceUrl": "https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-27---fut-developer-qa-responses---november/13877304",
+      "sourceFile": "_daily/routine/2026-11-25/research-market-review.md",
+      "routes": [
+        "/",
+        "/gallery-levels/",
+        "/sources/"
+      ]
+    },
+    {
+      "id": "gallery-hall-unleashed-pack-and-icon-set",
+      "need": "Correct planned campaign copy to verified past pack window and first ICON Gallery Set announcement",
+      "sourceUrl": "https://www.ea.com/games/ea-sports-fc/fc-27/news/hall-of-fut-unleashed",
+      "sourceFile": "_daily/routine/2026-11-25/research-market-review.md",
+      "routes": [
+        "/gallery-guide/",
+        "/gallery-levels/",
+        "/sources/"
+      ]
+    },
+    {
+      "id": "gallery-november-missing-token-recovery",
+      "need": "Verify actual missing token recovery after correct grades; checklist and early-popup explanation do not establish retroactive recovery",
+      "sourceUrl": "https://www.reddit.com/r/fut/comments/1y1cl08/has_anyone_else_experienced_gallery_token_glitch/",
+      "sourceFile": "_daily/routine/2026-11-25/research-market-review.md",
+      "routes": [
+        "/gallery-guide/"
+      ]
     }
   ]
 }

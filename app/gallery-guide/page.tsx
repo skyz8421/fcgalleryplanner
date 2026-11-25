@@ -12,6 +12,17 @@ export default function GalleryGuidePage() {
         <p>Gallery turns your eligible player collection into sets. Fill a set, improve its score and claim the rewards for its grade. Your overall Gallery level and your spendable Gallery tokens are separate progress tracks.</p>
         <img src="/gallery-process.svg" width={900} height={240} alt="Eligible collection items fill sets; set scores determine grades and contribute to Gallery progress, while grade rewards can award tokens." />
 
+        <section id="grade-notifications" tabIndex={-1} aria-label="Early grade notifications and missing tokens">
+          <h2>New grade pop-up, but no tokens?</h2>
+          <p>EA&apos;s <a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/fc27-title-update-v1-2-0">v1.2.0 update notes</a> address an early grade notification: some reward notifications used a lower score requirement than the actual grade. EA says tokens and items were awarded when the correct score was reached.</p>
+          <div className="table-scroll" tabIndex={0} role="region" aria-label="Grade notification and card effect comparison"><table className="data-table"><caption>Check the score behind the display</caption><thead><tr><th scope="col">Symptom</th><th scope="col">Check before changing your plan</th></tr></thead><tbody>
+            <tr><th scope="row">A new grade is announced early</th><td>Compare the Set&apos;s actual score with its grade requirement. A pop-up alone does not confirm that threshold.</td></tr>
+            <tr><th scope="row">Holographic effects are missing on the table</th><td>The same update addresses effects missing from ungraded items on the table. Check the exact item version and Item Score; this does not establish a Web App filter fix.</td></tr>
+          </tbody></table></div>
+          <p>If the correct grade is reached but your balance is still wrong, record the Set score, grade, claim status and token balance before and after claiming. These notes do not confirm recovery of previously missing tokens. Buying another card is not a verified recovery step.</p>
+          <p>Compare <Link href="/gallery-score-calculator/">Item Scores and tag bonuses</Link>, then follow the <Link href="#objective-rewards">separate reward checks</Link>. Use your confirmed balance in the <Link href="/gallery-levels/#token-reserve">token reserve calculator</Link>.</p>
+        </section>
+
         <section id="display-and-navigation" tabIndex={-1} aria-label="Gallery display and navigation checks">
           <h2>Wrong grade display or stuck Gallery menu?</h2>
           <p>EA&apos;s <a href="https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/ea-sports-fc%E2%84%A2-27--title-update-v1-1/13827930">v1.1.0 update notes</a> list these Gallery issues as addressed. Check your installed version before comparing symptoms.</p>
@@ -32,6 +43,7 @@ export default function GalleryGuidePage() {
             <tr><th scope="row">Previously released Sets</th><td>They remain available through the game. You can keep working on them alongside new Sets.</td></tr>
             <tr><th scope="row">Previously collected items</th><td>Eligible recorded versions can fill new Sets, even after leaving your Club. <Link href="#new-sets">Check your collection history</Link> first.</td></tr>
           </tbody></table></div>
+          <p>The <a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/hall-of-fut-unleashed">Hall of FUT Unleashed announcement</a> also introduces themed Gallery Sets, including the first ICON Set. Check its requirements against your <Link href="#new-sets">recorded collection</Link>; a new Set does not mean you must buy every item again.</p>
           <p>More Sets do not guarantee a particular Gallery level or grade. Compare their score gains in the <Link href="/gallery-levels/#points-gap">points-gap calculator</Link>, or check <Link href="/gallery-levels/#token-reserve">token carryover and your spending reserve</Link> before choosing a reward.</p>
         </section>
 

@@ -104,20 +104,30 @@ export default function GalleryLevelsPage() {
         <section id="token-reserve" tabIndex={-1} aria-label="Spend or save Gallery tokens">
           <h2>Spend Gallery tokens now or keep a reserve?</h2>
           <p><strong>Gallery Tokens carry over between Seasons.</strong> EA&apos;s developers say they do not expire or reset at a Season change, so you can keep a reserve instead of spending just because the Season ends.</p>
-          <aside className="notice" aria-label="Gallery Store refresh plan"><strong>Store refresh and token balance are different.</strong><p>EA plans a Gallery Store refresh for Season 3, with no new Hall of FUT items in that first refresh. Check each offer&apos;s own requirements and timer; keeping tokens does not keep an individual offer available.</p></aside>
+          <aside className="notice" aria-label="Gallery Store refresh plan"><strong>Store refresh and token balance are different.</strong><p>EA plans a Gallery Store refresh for Season 3, with no new Hall of FUT items in that first refresh. The <Link href="#season-3-evolutions">November update explains the Evolution plans</Link>. Check each offer&apos;s own requirements and timer; keeping tokens does not keep an individual offer available.</p></aside>
           <p>Use the calculator to compare a purchase with the balance you want left. For the added League and Club Sets, see <Link href="/gallery-guide/#season-2">what Season 2 changes in Gallery</Link>.</p>
           <TokenReserveCalculator />
           <p>For example, with 750 tokens, a 500-token purchase leaves 250. If you want 750 left for another reward, you need 500 more before buying. Keeping all 750 already meets that reserve. These are example amounts, not a current store listing.</p>
           <p>For earning and claiming set rewards, follow the <Link href="/gallery-guide/">Gallery collection steps</Link>. Check <a href="https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/">EA&apos;s Gallery help</a> and the offer in your game before choosing a purchase.</p>
         </section>
+        <section id="season-3-evolutions" tabIndex={-1} aria-label="Season 3 Gallery Evolution plans">
+          <h2>Season 3: save tokens for Hall of FUT Evolutions?</h2>
+          <p>In the <a href="https://forums.ea.com/blog/ea-sports-fc-game-info-hub-en/fc-27---fut-developer-qa-responses---november/13877304">November developer Q&amp;A, questions 2 and 5</a>, EA describes plans for dedicated Hall of FUT Evolutions in the Season 3 Gallery Token Store refresh. Base Store items will not receive automatic stat upgrades. The Evolution paths have their own tier, separate from Unleashed ratings.</p>
+          <div className="table-scroll" tabIndex={0} role="region" aria-label="Spend or save for Season 3"><table className="data-table"><caption>Choose using the offer you can actually see</caption><thead><tr><th scope="col">Your reason to spend</th><th scope="col">Decision check</th></tr></thead><tbody>
+            <tr><th scope="row">You want to play with the base item now</th><td>Judge that available item and its price. Check the purchase against your intended reserve before claiming.</td></tr>
+            <tr><th scope="row">You only want a future Evolution</th><td>Wait for its published eligibility, cost and upgrade details. The Q&amp;A does not supply those requirements; do not assume every item qualifies.</td></tr>
+            <tr><th scope="row">You want to keep your options open</th><td>Tokens carry over. Check individual offer timers separately; keeping a balance does not preserve an expiring offer.</td></tr>
+          </tbody></table></div>
+          <p><Link href="#token-reserve">Calculate your purchase and reserve</Link>, or <Link href="/">plan the extra tokens you need</Link>. An Evolution improves a playing item, while <Link href="/gallery-guide/#card-versions">Gallery uses its original version</Link>; do not add Evolution stat gains to your Gallery score.</p>
+        </section>
         <section id="future-rewards" tabIndex={-1} aria-label="Future Gallery rewards">
           <h2>Are more Hall of FUT players coming?</h2>
-          <p>EA&apos;s developers say they do not currently plan to expand the Hall of FUT player roster in FC 27. They do plan to feature the existing roster in a Hall of FUT Unleashed campaign. New versions of existing players and new names in the roster are different things.</p>
+          <p>EA&apos;s developers say they do not currently plan to expand the Hall of FUT player roster in FC 27. The Hall of FUT Unleashed campaign introduced new versions of 21 existing players to packs for November 13–20; that announced pack window has ended. New versions of existing players and new names in the roster are different things.</p>
           <div className="table-scroll collection-history-scroll" tabIndex={0} role="region" aria-label="Gallery reward plans comparison">
             <table className="data-table collection-history-table"><caption>What each announced plan means for your tokens</caption><thead><tr><th scope="col">Plan</th><th scope="col">What you can use it to decide</th></tr></thead><tbody>
               <tr><th scope="row">Tokens carry over</th><td>You can keep an unused balance between Seasons. An individual offer can still expire.</td></tr>
               <tr><th scope="row">Season 3 Store refresh</th><td>EA plans to refresh rewards, without new Hall of FUT items in that first refresh. A refresh does not promise a new player roster.</td></tr>
-              <tr><th scope="row">Hall of FUT Unleashed</th><td>The existing roster is planned to feature in this campaign. That answer does not specify how to obtain those items or promise you can buy them with Gallery Tokens.</td></tr>
+              <tr><th scope="row">Hall of FUT Unleashed</th><td>EA&apos;s <a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/hall-of-fut-unleashed">campaign announcement</a> describes pack releases. They are separate from the <Link href="#season-3-evolutions">planned Evolutions for base Gallery rewards</Link>; do not budget Gallery Tokens as if they buy Unleashed items.</td></tr>
             </tbody></table>
           </div>
           <p>For a past-and-present squad, judge an available reward by whether you want to use it now. Saving tokens is an option, but a rumoured player or campaign is not a confirmed future Store offer. Compare a purchase and a retained balance with the <Link href="#token-reserve">token reserve calculator</Link>.</p>

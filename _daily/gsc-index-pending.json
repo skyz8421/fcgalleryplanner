@@ -6,14 +6,15 @@
     "https://fcgallery.wiki/sources/",
     "https://fcgallery.wiki/gallery-levels/"
   ],
-  "lastOutcome": "Level15 report published; prior queue retained, dedicated GSC login blocked both actual attempts; submitted0 accepted0",
+  "lastOutcome": "Nov25 four pages updated; guide request stopped on dedicated-profile login, submitted0 accepted0; shared real Chrome focus changed so fallback not submitted",
   "lastQuotaObservedAt": "2026-10-12T23:24:05.699102+00:00",
-  "sourceEvidence": "_daily/routine/2026-10-31/gsc-levels-request.log",
-  "lastAttemptAt": "2026-10-30T23:17:09.738706+00:00",
+  "sourceEvidence": "_daily/routine/2026-11-25/gsc-request.log",
+  "lastAttemptAt": "2026-11-25T13:33:19.864141+00:00",
   "latestChangedUrl": "https://fcgallery.wiki/gallery-levels/",
-  "latestDeployment": "d1ef0d27-b2c4-4ff3-a084-d91cf0b72f6d",
+  "latestDeployment": "a685f409-e485-45e3-af1e-a9fb07e19927",
   "latestChangedUrls": [
     "https://fcgallery.wiki/",
+    "https://fcgallery.wiki/gallery-guide/",
     "https://fcgallery.wiki/gallery-levels/",
     "https://fcgallery.wiki/sources/"
   ]

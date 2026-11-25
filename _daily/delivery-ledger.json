@@ -351,6 +351,60 @@
         "_daily/routine/2026-10-31/research-market-review.md",
         "_daily/routine/2026-10-31/release-receipt.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "9a61de6d3bf5733ff4eb183e99aa4bbc3c8ba64e79bdb14dd5f5fa4cfc947d14",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-11-25T13:34:18.358Z",
+      "deploymentId": "a685f409-e485-45e3-af1e-a9fb07e19927",
+      "evidencePath": "_daily/routine/2026-11-25/live-update-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-11-25/research-market-review.md",
+        "_daily/routine/2026-11-25/release-receipt.json",
+        "_daily/routine/2026-11-25/live-reserve-qa.json"
+      ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "8a25bfcbc6a0ae6fb4c131a65bbb8dd4c2164adc43424dbc3a226181407204d6",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-levels/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-11-25T13:34:18.358Z",
+      "deploymentId": "a685f409-e485-45e3-af1e-a9fb07e19927",
+      "evidencePath": "_daily/routine/2026-11-25/live-update-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-11-25/research-market-review.md",
+        "_daily/routine/2026-11-25/release-receipt.json",
+        "_daily/routine/2026-11-25/live-reserve-qa.json"
+      ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "68aca4e81cc7a475233c172d319512aa8d8a65c2ca713b04e70ca88cd6533633",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/gallery-levels/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-11-25T13:34:18.358Z",
+      "deploymentId": "a685f409-e485-45e3-af1e-a9fb07e19927",
+      "evidencePath": "_daily/routine/2026-11-25/live-update-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-11-25/research-market-review.md",
+        "_daily/routine/2026-11-25/release-receipt.json",
+        "_daily/routine/2026-11-25/live-reserve-qa.json"
+      ]
     }
   ]
 }
