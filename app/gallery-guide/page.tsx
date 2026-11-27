@@ -20,7 +20,7 @@ export default function GalleryGuidePage() {
             <tr><th scope="row">Holographic effects are missing on the table</th><td>The same update addresses effects missing from ungraded items on the table. Check the exact item version and Item Score; this does not establish a Web App filter fix.</td></tr>
           </tbody></table></div>
           <p>If the correct grade is reached but your balance is still wrong, record the Set score, grade, claim status and token balance before and after claiming. These notes do not confirm recovery of previously missing tokens. Buying another card is not a verified recovery step.</p>
-          <p>Compare <Link href="/gallery-score-calculator/">Item Scores and tag bonuses</Link>, then follow the <Link href="#objective-rewards">separate reward checks</Link>. Use your confirmed balance in the <Link href="/gallery-levels/#token-reserve">token reserve calculator</Link>.</p>
+          <p>Compare <Link href="/gallery-score-calculator/">Item Scores and tag bonuses</Link>, then follow the <Link href="#objective-rewards">separate reward checks</Link>. <Link href="/gallery-levels/#token-currencies">Keep Gallery and Thunderstruck Tokens separate</Link> when entering your confirmed balance in the <Link href="/gallery-levels/#token-reserve">token reserve calculator</Link>.</p>
         </section>
 
         <section id="display-and-navigation" tabIndex={-1} aria-label="Gallery display and navigation checks">

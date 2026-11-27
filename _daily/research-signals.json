@@ -318,6 +318,18 @@
       "routes": [
         "/gallery-guide/"
       ]
+    },
+    {
+      "id": "gallery-thunderstruck-currency-separation",
+      "need": "Separate official Thunderstruck event Tokens from Gallery balances with a comparison and concrete planner input example",
+      "sourceUrl": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-bf-thunderstruck",
+      "sourceFile": "_daily/routine/2026-11-28/web-facts.txt",
+      "routes": [
+        "/",
+        "/gallery-levels/",
+        "/gallery-guide/",
+        "/sources/"
+      ]
     }
   ]
 }

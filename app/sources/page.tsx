@@ -14,6 +14,7 @@ export default function SourcesPage() {
         <img src="/gallery-process.svg" width={900} height={240} alt="Diagram of the collection, set scoring, grade and overall Gallery progress used to organize the planning tools." />
 
         <h2>Published EA references</h2>
+        <p>EA&apos;s <a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-bf-thunderstruck">Black Friday: Thunderstruck announcement</a> describes event Tokens and their own Store. Use the <Link href="/gallery-levels/#token-currencies">Gallery versus Thunderstruck currency comparison</Link> before entering a balance in a plan.</p>
         <ul>
           <li><a href="https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/">EA Gallery help</a>: set eligibility, keeping items when filling sets, reusing items across sets, loan exclusions, original Evolution versions and claiming grade rewards.</li>
           <li><a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/pitch-notes-fc27-launch-update">FC 27 launch update</a>: the overall-rating Item Score table, Gallery level milestone rewards and <Link href="/gallery-guide/#new-sets">using collection history in new Sets</Link>. Rarity and holographic status can also affect an item&apos;s score.</li>

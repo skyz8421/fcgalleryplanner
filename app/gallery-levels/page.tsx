@@ -101,6 +101,18 @@ export default function GalleryLevelsPage() {
           <p>If one set has already earned 20 tokens and its proposed grade would bring its cumulative rewards to 50, enter current 20 and planned 50. Its new contribution is 30 tokens.</p>
         </div>
         <p>A route with the biggest score gain is not automatically the route with the most useful token gain. Compare the new tokens from your proposed grades with the gap to your cumulative target.</p>
+        <section id="token-currencies" tabIndex={-1} aria-label="Gallery and Thunderstruck token comparison">
+          <h2>Gallery Tokens or Thunderstruck Tokens?</h2>
+          <p><strong>Keep these balances separate when planning.</strong> EA&apos;s <a href="https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-bf-thunderstruck">Black Friday: Thunderstruck announcement</a> describes a separate event Token Store. Its 100-token login grant during the campaign is for that store, not a Gallery Set reward.</p>
+          <div className="table-scroll" tabIndex={0} role="region" aria-label="Scrollable token currency comparison">
+            <table className="data-table"><caption>Check the currency before entering a balance</caption><thead><tr><th scope="col">Currency</th><th scope="col">How EA describes earning it</th><th scope="col">Where to use it</th></tr></thead><tbody>
+              <tr><th scope="row">Gallery Tokens</th><td>Rewards from grading Gallery Sets</td><td>Gallery Token Store; use this balance in the reserve calculator below</td></tr>
+              <tr><th scope="row">Thunderstruck Tokens</th><td>Campaign login grant and themed Objectives</td><td>Thunderstruck Token Store; keep this balance out of Gallery calculations</td></tr>
+            </tbody></table>
+          </div>
+          <p>If you have 300 Gallery Tokens and 100 Thunderstruck Tokens, enter 300 as your available Gallery balance. Check the currency name on the reward and its Store offer before adding any amount.</p>
+          <p><Link href="/gallery-guide/#objective-rewards">Check which reward you earned</Link>, then <Link href="#token-reserve">compare a purchase with your Gallery reserve</Link>. For how Gallery Tokens are earned, see <a href="https://help.ea.com/en/articles/ea-sports-fc/gallery-hub/">EA&apos;s Gallery help</a>.</p>
+        </section>
         <section id="token-reserve" tabIndex={-1} aria-label="Spend or save Gallery tokens">
           <h2>Spend Gallery tokens now or keep a reserve?</h2>
           <p><strong>Gallery Tokens carry over between Seasons.</strong> EA&apos;s developers say they do not expire or reset at a Season change, so you can keep a reserve instead of spending just because the Season ends.</p>

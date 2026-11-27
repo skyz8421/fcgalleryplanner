@@ -405,6 +405,26 @@
         "_daily/routine/2026-11-25/release-receipt.json",
         "_daily/routine/2026-11-25/live-reserve-qa.json"
       ]
+    },
+    {
+      "sourceFile": "_daily/research-signals.json",
+      "signalFingerprint": "0e084d16052b7d123253cefc2e7f95d217b9dc53cb8e86dc7b65b0b1cce95c52",
+      "status": "delivered",
+      "verifiedUrls": [
+        "https://fcgallery.wiki/",
+        "https://fcgallery.wiki/gallery-levels/",
+        "https://fcgallery.wiki/gallery-guide/",
+        "https://fcgallery.wiki/sources/"
+      ],
+      "handledAt": "2026-11-27T23:14:02.137Z",
+      "deploymentId": "449a2ef1-b4d5-46e8-b329-63692b06979e",
+      "evidencePath": "_daily/routine/2026-11-28/live-currency-qa.json",
+      "additionalEvidence": [
+        "_daily/routine/2026-11-28/web-facts.txt",
+        "_daily/routine/2026-11-28/local-currency-qa.json",
+        "_daily/routine/2026-11-28/release-receipt.json",
+        "_daily/routine/2026-11-28/research-market-review.md"
+      ]
     }
   ]
 }
